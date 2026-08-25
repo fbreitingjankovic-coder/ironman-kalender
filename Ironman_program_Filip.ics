@@ -1,0 +1,3283 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ironman-plan Filip//Claude//DA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Copenhagen
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-08-25-tue_bike_test-6ba9dde5-0f31-5bed-8c30-7c8d42d00c2b@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260825T173000
+DTEND;TZID=Europe/Copenhagen:20260825T183000
+SUMMARY:Cykel: Cykel – FTP-test
+DESCRIPTION:20 min opvarmning inkl. 3x3 min stigende. Herefter 20 min all-o
+ ut tidsforsøg (eller ramp-test hvis du har adgang). FTP ≈ 95% af 20-min
+  gennemsnitseffekt. Brug resultatet til at opdatere effektzonerne. 15 min 
+ nedjog.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-26-wed_swim_test-68514a3a-de03-5b54-8195-26786a9d1099@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260826T063000
+DTEND;TZID=Europe/Copenhagen:20260826T071500
+SUMMARY:Svøm: Svøm – CSS-test (kritisk svømmehastighed)
+DESCRIPTION:Opvarmning 300-400m. Svøm 400m all-out (noter tid)\, 5-8 min p
+ ause\, svøm 200m all-out (noter tid). CSS-pace = (400m-tid − 200m-tid) 
+ / (400 − 200) × 100. Brug resultatet til at sætte svømmezoner for næ
+ ste blok.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-27-thu_run-7a6079e0-d126-55e7-9864-0839128fde05@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260827T173000
+DTEND;TZID=Europe/Copenhagen:20260827T180500
+SUMMARY:Løb: Løb – Restitutionsløb
+DESCRIPTION:35 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-29-sat_run-0dd8d511-3803-515d-b990-7168117f3cf6@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260829T090000
+DTEND;TZID=Europe/Copenhagen:20260829T095000
+SUMMARY:Løb: Løb – Rolig
+DESCRIPTION:50 min rolig Z1-Z2. Lær kroppen at kende\, ingen fart.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-30-sun_bike-46e796e0-6260-5be5-8f7f-659f7686ef77@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260830T090000
+DTEND;TZID=Europe/Copenhagen:20260830T100000
+SUMMARY:Cykel: Cykel – Rolig
+DESCRIPTION:60 min rolig Z1-Z2 på cykel. Vænn dig til siddeposition.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-31-mon_strength-161763b8-c52b-5997-9a75-8ad5d8d557dc@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260831T180000
+DTEND;TZID=Europe/Copenhagen:20260831T181500
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 1)
+DESCRIPTION:15 min. Grundlæggende helkrops-styrke: squats\, lunges\, plank
+ e\, hoftebro\, skulderstabilitet (rotator cuff-øvelser pga. ny svømmebel
+ astning). Lav vægt\, høj kvalitet.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-31-mon_swim-345675ea-4dfd-59bf-a551-793a7075b1fe@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260831T063000
+DTEND;TZID=Europe/Copenhagen:20260831T070100
+SUMMARY:Svøm: Svøm – Teknik (grundlæggende vandfornemmelse) (uge 1)
+DESCRIPTION:31 min i alt. Fokus på position og åndedræt: 8-12x25m catch-
+ up drill\, 8x25m fingertip drag\, 6x25m bilateral åndedræt (hver 3. armt
+ ag). God pause (20-30s) mellem hver – kvalitet over fart. Afslut med 100
+ -200m rolig\, sammenhængende svømning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-01-tue_bike-0cd60f57-6160-5064-a57c-e59d2f4b5af5@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260901T173000
+DTEND;TZID=Europe/Copenhagen:20260901T182500
+SUMMARY:Cykel: Cykel – Kadence & grundstyrke (uge 1)
+DESCRIPTION:55 min i alt. Opvarmning 15 min stigende. Hovedsæt: 6x3 min h
+ øj kadence (95-100 rpm) @ Z2-Z3\, 2 min let mellem. Rolig udkørsel reste
+ n af tiden i Z1-Z2. Formål: vænne kroppen (og sædet!) til cykling\, ikk
+ e intensitet endnu.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-02-wed_swim-d24a7fce-0929-556a-85ea-91c990524d31@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260902T063000
+DTEND;TZID=Europe/Copenhagen:20260902T071600
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 1)
+DESCRIPTION:46 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-03-thu_run-b1af195e-2c95-585a-8376-349656f41d8c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260903T173000
+DTEND;TZID=Europe/Copenhagen:20260903T180200
+SUMMARY:Løb: Løb – Let progressiv (uge 1)
+DESCRIPTION:32 min. Rolig Z2\, de sidste 10 min gradvist op mod Z3-tempo (4
+ :07/km-4:35/km). Vedligehold af løbeform mens fokus er på svøm/cykel.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-05-sat_run-edce2c17-3913-5d35-933c-022173c66598@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260905T090000
+DTEND;TZID=Europe/Copenhagen:20260905T100000
+SUMMARY:Løb: Løb – Langtur (uge 1)
+DESCRIPTION:60 min (1.0 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-06-sun_bike-9061cdaa-4b84-5e23-9afc-57e2544aef24@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260906T090000
+DTEND;TZID=Europe/Copenhagen:20260906T100700
+SUMMARY:Cykel: Cykel – Lang rolig tur (uge 1)
+DESCRIPTION:67 min (1.1 t) i Z1-Z2. Fokus på siddekomfort\, jævnt kadence
+  (85-95 rpm) og at vænne kroppen til tid i sadlen. Tag væske/næring hve
+ r 20-30 min for at træne rutinen tidligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-07-mon_strength-273f97d1-576a-565d-8496-82917172e03d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260907T180000
+DTEND;TZID=Europe/Copenhagen:20260907T181700
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 2)
+DESCRIPTION:17 min. Grundlæggende helkrops-styrke: squats\, lunges\, plank
+ e\, hoftebro\, skulderstabilitet (rotator cuff-øvelser pga. ny svømmebel
+ astning). Lav vægt\, høj kvalitet.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-07-mon_swim-31f9ef96-6419-565a-aa5e-79d0f6550d71@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260907T063000
+DTEND;TZID=Europe/Copenhagen:20260907T070400
+SUMMARY:Svøm: Svøm – Teknik (grundlæggende vandfornemmelse) (uge 2)
+DESCRIPTION:34 min i alt. Fokus på position og åndedræt: 8-12x25m catch-
+ up drill\, 8x25m fingertip drag\, 6x25m bilateral åndedræt (hver 3. armt
+ ag). God pause (20-30s) mellem hver – kvalitet over fart. Afslut med 100
+ -200m rolig\, sammenhængende svømning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-08-tue_bike-b10abff5-32d2-52d1-b5e4-e0cd6e23f7e3@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260908T173000
+DTEND;TZID=Europe/Copenhagen:20260908T183200
+SUMMARY:Cykel: Cykel – Kadence & grundstyrke (uge 2)
+DESCRIPTION:62 min i alt. Opvarmning 15 min stigende. Hovedsæt: 6x3 min h
+ øj kadence (95-100 rpm) @ Z2-Z3\, 2 min let mellem. Rolig udkørsel reste
+ n af tiden i Z1-Z2. Formål: vænne kroppen (og sædet!) til cykling\, ikk
+ e intensitet endnu.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-09-wed_swim-498e4f7b-693c-5f6f-8164-2e7522222a8c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260909T063000
+DTEND;TZID=Europe/Copenhagen:20260909T072100
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 2)
+DESCRIPTION:51 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-10-thu_run-e6c966b0-7b1d-5778-9ef3-272852e52b84@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260910T173000
+DTEND;TZID=Europe/Copenhagen:20260910T180600
+SUMMARY:Løb: Løb – Let progressiv (uge 2)
+DESCRIPTION:36 min. Rolig Z2\, de sidste 10 min gradvist op mod Z3-tempo (4
+ :07/km-4:35/km). Vedligehold af løbeform mens fokus er på svøm/cykel.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-12-sat_run-9c7969d6-7e8c-5c7f-81e1-63431e16c987@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260912T090000
+DTEND;TZID=Europe/Copenhagen:20260912T100700
+SUMMARY:Løb: Løb – Langtur (uge 2)
+DESCRIPTION:67 min (1.1 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-13-sun_bike-bf6cb68a-6a92-505f-bd2c-490c3531f16d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260913T090000
+DTEND;TZID=Europe/Copenhagen:20260913T101500
+SUMMARY:Cykel: Cykel – Lang rolig tur (uge 2)
+DESCRIPTION:75 min (1.2 t) i Z1-Z2. Fokus på siddekomfort\, jævnt kadence
+  (85-95 rpm) og at vænne kroppen til tid i sadlen. Tag væske/næring hve
+ r 20-30 min for at træne rutinen tidligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-14-mon_strength-bee778f2-6fe6-510f-a58f-b62a5a693294@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260914T180000
+DTEND;TZID=Europe/Copenhagen:20260914T181900
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 3)
+DESCRIPTION:19 min. Grundlæggende helkrops-styrke: squats\, lunges\, plank
+ e\, hoftebro\, skulderstabilitet (rotator cuff-øvelser pga. ny svømmebel
+ astning). Lav vægt\, høj kvalitet.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-14-mon_swim-a25995f8-803a-5414-8030-8d0c6f082ad6@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260914T063000
+DTEND;TZID=Europe/Copenhagen:20260914T070800
+SUMMARY:Svøm: Svøm – Teknik (grundlæggende vandfornemmelse) (uge 3)
+DESCRIPTION:38 min i alt. Fokus på position og åndedræt: 8-12x25m catch-
+ up drill\, 8x25m fingertip drag\, 6x25m bilateral åndedræt (hver 3. armt
+ ag). God pause (20-30s) mellem hver – kvalitet over fart. Afslut med 100
+ -200m rolig\, sammenhængende svømning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-15-tue_bike-482031e0-e070-5d02-a063-25e598c02856@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260915T173000
+DTEND;TZID=Europe/Copenhagen:20260915T183800
+SUMMARY:Cykel: Cykel – Kadence & grundstyrke (uge 3)
+DESCRIPTION:68 min i alt. Opvarmning 15 min stigende. Hovedsæt: 6x3 min h
+ øj kadence (95-100 rpm) @ Z2-Z3\, 2 min let mellem. Rolig udkørsel reste
+ n af tiden i Z1-Z2. Formål: vænne kroppen (og sædet!) til cykling\, ikk
+ e intensitet endnu.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-16-wed_swim-982b9309-0f78-5324-beea-8e37ddd2be0f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260916T063000
+DTEND;TZID=Europe/Copenhagen:20260916T072700
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 3)
+DESCRIPTION:57 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-17-thu_run-36d0e4a6-b913-577d-9007-e8f24b4d61ca@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260917T173000
+DTEND;TZID=Europe/Copenhagen:20260917T181000
+SUMMARY:Løb: Løb – Let progressiv (uge 3)
+DESCRIPTION:40 min. Rolig Z2\, de sidste 10 min gradvist op mod Z3-tempo (4
+ :07/km-4:35/km). Vedligehold af løbeform mens fokus er på svøm/cykel.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-19-sat_run-24a7a63f-7232-5416-93a2-24d32d8bf276@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260919T090000
+DTEND;TZID=Europe/Copenhagen:20260919T101400
+SUMMARY:Løb: Løb – Langtur (uge 3)
+DESCRIPTION:74 min (1.2 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-20-sun_bike-14a1184b-dcc3-5ae4-b3c3-73c8dd513927@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260920T090000
+DTEND;TZID=Europe/Copenhagen:20260920T102300
+SUMMARY:Cykel: Cykel – Lang rolig tur (uge 3)
+DESCRIPTION:83 min (1.4 t) i Z1-Z2. Fokus på siddekomfort\, jævnt kadence
+  (85-95 rpm) og at vænne kroppen til tid i sadlen. Tag væske/næring hve
+ r 20-30 min for at træne rutinen tidligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-21-mon_strength-0a95bbbf-d88c-52b8-8880-9a5f9458205d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260921T180000
+DTEND;TZID=Europe/Copenhagen:20260921T181500
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 4)
+DESCRIPTION:15 min. Grundlæggende helkrops-styrke: squats\, lunges\, plank
+ e\, hoftebro\, skulderstabilitet (rotator cuff-øvelser pga. ny svømmebel
+ astning). Lav vægt\, høj kvalitet.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-21-mon_swim-c2348d44-5c74-57e3-9685-1539ecc55d33@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260921T063000
+DTEND;TZID=Europe/Copenhagen:20260921T065300
+SUMMARY:Svøm: Svøm – Teknik (grundlæggende vandfornemmelse) (uge 4)
+DESCRIPTION:23 min i alt. Fokus på position og åndedræt: 8-12x25m catch-
+ up drill\, 8x25m fingertip drag\, 6x25m bilateral åndedræt (hver 3. armt
+ ag). God pause (20-30s) mellem hver – kvalitet over fart. Afslut med 100
+ -200m rolig\, sammenhængende svømning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-22-tue_bike-7fd3d02d-6494-50ab-8b2c-4c8bea337468@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260922T173000
+DTEND;TZID=Europe/Copenhagen:20260922T181200
+SUMMARY:Cykel: Cykel – Kadence & grundstyrke (uge 4)
+DESCRIPTION:42 min i alt. Opvarmning 15 min stigende. Hovedsæt: 6x3 min h
+ øj kadence (95-100 rpm) @ Z2-Z3\, 2 min let mellem. Rolig udkørsel reste
+ n af tiden i Z1-Z2. Formål: vænne kroppen (og sædet!) til cykling\, ikk
+ e intensitet endnu.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-23-wed_swim-45049e6e-9644-5794-8973-396a1bda4dac@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260923T063000
+DTEND;TZID=Europe/Copenhagen:20260923T070500
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 4)
+DESCRIPTION:35 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-24-thu_run-1757ad6f-b3bc-5184-aa0a-7fb610c9e150@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260924T173000
+DTEND;TZID=Europe/Copenhagen:20260924T180000
+SUMMARY:Løb: Løb – Let progressiv (uge 4)
+DESCRIPTION:30 min. Rolig Z2\, de sidste 10 min gradvist op mod Z3-tempo (4
+ :07/km-4:35/km). Vedligehold af løbeform mens fokus er på svøm/cykel.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-26-sat_run-1e8bfdbc-5d71-59b6-a252-bdc3de362b3a@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260926T090000
+DTEND;TZID=Europe/Copenhagen:20260926T094600
+SUMMARY:Løb: Løb – Langtur (uge 4)
+DESCRIPTION:46 min (0.8 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-27-sun_bike-aa80e394-5f3b-5b66-b1f0-f834bdfdeaa3@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260927T090000
+DTEND;TZID=Europe/Copenhagen:20260927T095100
+SUMMARY:Cykel: Cykel – Lang rolig tur (uge 4)
+DESCRIPTION:51 min (0.8 t) i Z1-Z2. Fokus på siddekomfort\, jævnt kadence
+  (85-95 rpm) og at vænne kroppen til tid i sadlen. Tag væske/næring hve
+ r 20-30 min for at træne rutinen tidligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-28-mon_strength-81fa2428-5220-5e57-b6d7-a4368dc2f159@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260928T180000
+DTEND;TZID=Europe/Copenhagen:20260928T181800
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 5)
+DESCRIPTION:18 min. Grundlæggende helkrops-styrke: squats\, lunges\, plank
+ e\, hoftebro\, skulderstabilitet (rotator cuff-øvelser pga. ny svømmebel
+ astning). Lav vægt\, høj kvalitet.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-28-mon_swim-79de27f9-4aa1-5d34-bad6-96303d31cd8e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260928T063000
+DTEND;TZID=Europe/Copenhagen:20260928T070600
+SUMMARY:Svøm: Svøm – Teknik & vandfornemmelse (uge 5)
+DESCRIPTION:36 min i alt. Opvarmning 200m rolig. Drillserie: 6x50m catch-up
+ \, 6x50m fingertip drag\, 4x50m 6-3-6 (rotation). Herefter 4-6x50m build (
+ rolig->hurtig) m. 20s pause. Afslut med 200m nedjog i roligt tempo.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-29-tue_bike-a4bb8de3-b3d5-5361-9168-0a49ae7be5e1@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260929T173000
+DTEND;TZID=Europe/Copenhagen:20260929T183500
+SUMMARY:Cykel: Cykel – Kadence & grundstyrke (uge 5)
+DESCRIPTION:65 min i alt. Opvarmning 15 min stigende. Hovedsæt: 6x3 min h
+ øj kadence (95-100 rpm) @ Z2-Z3\, 2 min let mellem. Rolig udkørsel reste
+ n af tiden i Z1-Z2. Formål: vænne kroppen (og sædet!) til cykling\, ikk
+ e intensitet endnu.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-09-30-wed_swim-9c246622-9843-5d55-bf14-101c5d1147ca@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20260930T063000
+DTEND;TZID=Europe/Copenhagen:20260930T072400
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 5)
+DESCRIPTION:54 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-01-thu_run-0be9ba0e-d72b-50d7-b135-43c6cd1334ad@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261001T173000
+DTEND;TZID=Europe/Copenhagen:20261001T180800
+SUMMARY:Løb: Løb – Let progressiv (uge 5)
+DESCRIPTION:38 min. Rolig Z2\, de sidste 10 min gradvist op mod Z3-tempo (4
+ :07/km-4:35/km). Vedligehold af løbeform mens fokus er på svøm/cykel.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-03-sat_run-87c87525-2e7d-5222-bfba-a06b1ec05f90@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261003T090000
+DTEND;TZID=Europe/Copenhagen:20261003T101000
+SUMMARY:Løb: Løb – Langtur (uge 5)
+DESCRIPTION:70 min (1.2 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-04-sun_bike-7997b836-e058-5a5f-bb37-c7b246d8928e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261004T090000
+DTEND;TZID=Europe/Copenhagen:20261004T101900
+SUMMARY:Cykel: Cykel – Lang rolig tur (uge 5)
+DESCRIPTION:79 min (1.3 t) i Z1-Z2. Fokus på siddekomfort\, jævnt kadence
+  (85-95 rpm) og at vænne kroppen til tid i sadlen. Tag væske/næring hve
+ r 20-30 min for at træne rutinen tidligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-05-mon_strength-20c4cf50-5bdb-589a-bf48-2c15971e9852@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261005T180000
+DTEND;TZID=Europe/Copenhagen:20261005T182000
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 6)
+DESCRIPTION:20 min. Grundlæggende helkrops-styrke: squats\, lunges\, plank
+ e\, hoftebro\, skulderstabilitet (rotator cuff-øvelser pga. ny svømmebel
+ astning). Lav vægt\, høj kvalitet.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-05-mon_swim-38c7325e-c55e-542a-8ab1-3d52735761d4@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261005T063000
+DTEND;TZID=Europe/Copenhagen:20261005T071000
+SUMMARY:Svøm: Svøm – Teknik & vandfornemmelse (uge 6)
+DESCRIPTION:40 min i alt. Opvarmning 200m rolig. Drillserie: 6x50m catch-up
+ \, 6x50m fingertip drag\, 4x50m 6-3-6 (rotation). Herefter 4-6x50m build (
+ rolig->hurtig) m. 20s pause. Afslut med 200m nedjog i roligt tempo.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-06-tue_bike-f51ea47f-a32f-5451-9577-b51506543876@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261006T173000
+DTEND;TZID=Europe/Copenhagen:20261006T184100
+SUMMARY:Cykel: Cykel – Kadence & grundstyrke (uge 6)
+DESCRIPTION:71 min i alt. Opvarmning 15 min stigende. Hovedsæt: 6x3 min h
+ øj kadence (95-100 rpm) @ Z2-Z3\, 2 min let mellem. Rolig udkørsel reste
+ n af tiden i Z1-Z2. Formål: vænne kroppen (og sædet!) til cykling\, ikk
+ e intensitet endnu.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-07-wed_swim-30434413-e97d-5e16-a63d-6e15fa1ef384@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261007T063000
+DTEND;TZID=Europe/Copenhagen:20261007T072900
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 6)
+DESCRIPTION:59 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-08-thu_run-b2a0bd5e-dda7-5cce-963e-8c46b63c644e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261008T173000
+DTEND;TZID=Europe/Copenhagen:20261008T181200
+SUMMARY:Løb: Løb – Let progressiv (uge 6)
+DESCRIPTION:42 min. Rolig Z2\, de sidste 10 min gradvist op mod Z3-tempo (4
+ :07/km-4:35/km). Vedligehold af løbeform mens fokus er på svøm/cykel.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-10-sat_run-6b3c669b-6c99-504e-a70e-0b9a02863d0c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261010T090000
+DTEND;TZID=Europe/Copenhagen:20261010T101700
+SUMMARY:Løb: Løb – Langtur (uge 6)
+DESCRIPTION:77 min (1.3 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-11-sun_bike-a59ae975-5374-5301-9330-f90fd89fa4a8@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261011T090000
+DTEND;TZID=Europe/Copenhagen:20261011T102700
+SUMMARY:Cykel: Cykel – Lang rolig tur (uge 6)
+DESCRIPTION:87 min (1.4 t) i Z1-Z2. Fokus på siddekomfort\, jævnt kadence
+  (85-95 rpm) og at vænne kroppen til tid i sadlen. Tag væske/næring hve
+ r 20-30 min for at træne rutinen tidligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-12-mon_strength-e6f4fc95-6707-5db0-b595-effe8339e94f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261012T180000
+DTEND;TZID=Europe/Copenhagen:20261012T182200
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 7)
+DESCRIPTION:22 min. Grundlæggende helkrops-styrke: squats\, lunges\, plank
+ e\, hoftebro\, skulderstabilitet (rotator cuff-øvelser pga. ny svømmebel
+ astning). Lav vægt\, høj kvalitet.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-12-mon_swim-63843837-a03c-5227-a25a-2bff1964f3e5@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261012T063000
+DTEND;TZID=Europe/Copenhagen:20261012T071400
+SUMMARY:Svøm: Svøm – Teknik & vandfornemmelse (uge 7)
+DESCRIPTION:44 min i alt. Opvarmning 200m rolig. Drillserie: 6x50m catch-up
+ \, 6x50m fingertip drag\, 4x50m 6-3-6 (rotation). Herefter 4-6x50m build (
+ rolig->hurtig) m. 20s pause. Afslut med 200m nedjog i roligt tempo.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-13-tue_bike-bdc96a79-5d20-528d-9260-997348d9a98e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261013T173000
+DTEND;TZID=Europe/Copenhagen:20261013T185000
+SUMMARY:Cykel: Cykel – Kadence & grundstyrke (uge 7)
+DESCRIPTION:80 min i alt. Opvarmning 15 min stigende. Hovedsæt: 6x3 min h
+ øj kadence (95-100 rpm) @ Z2-Z3\, 2 min let mellem. Rolig udkørsel reste
+ n af tiden i Z1-Z2. Formål: vænne kroppen (og sædet!) til cykling\, ikk
+ e intensitet endnu.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-14-wed_swim-f9337efd-19f1-5ed9-9bbe-7d42f4546807@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261014T063000
+DTEND;TZID=Europe/Copenhagen:20261014T073700
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 7)
+DESCRIPTION:67 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-15-thu_run-b2421097-3142-5460-b2e3-3d2d943d60f2@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261015T173000
+DTEND;TZID=Europe/Copenhagen:20261015T181700
+SUMMARY:Løb: Løb – Let progressiv (uge 7)
+DESCRIPTION:47 min. Rolig Z2\, de sidste 10 min gradvist op mod Z3-tempo (4
+ :07/km-4:35/km). Vedligehold af løbeform mens fokus er på svøm/cykel.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-17-sat_run-fa1c2d6f-3ebf-5d38-8cb2-7842a822d74a@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261017T090000
+DTEND;TZID=Europe/Copenhagen:20261017T102700
+SUMMARY:Løb: Løb – Langtur (uge 7)
+DESCRIPTION:87 min (1.4 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-18-sun_bike-9dc50ab7-a300-58d6-a0f9-2ea9e394d332@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261018T090000
+DTEND;TZID=Europe/Copenhagen:20261018T103800
+SUMMARY:Cykel: Cykel – Lang rolig tur (uge 7)
+DESCRIPTION:98 min (1.6 t) i Z1-Z2. Fokus på siddekomfort\, jævnt kadence
+  (85-95 rpm) og at vænne kroppen til tid i sadlen. Tag væske/næring hve
+ r 20-30 min for at træne rutinen tidligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-19-mon_strength-4f0c08ea-9756-58e7-b817-3545f65b6901@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261019T180000
+DTEND;TZID=Europe/Copenhagen:20261019T181500
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 8)
+DESCRIPTION:15 min. Grundlæggende helkrops-styrke: squats\, lunges\, plank
+ e\, hoftebro\, skulderstabilitet (rotator cuff-øvelser pga. ny svømmebel
+ astning). Lav vægt\, høj kvalitet.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-19-mon_swim-1c7d4c91-c723-5e07-a946-cb4df6e053f3@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261019T063000
+DTEND;TZID=Europe/Copenhagen:20261019T065700
+SUMMARY:Svøm: Svøm – Teknik & vandfornemmelse (uge 8)
+DESCRIPTION:27 min i alt. Opvarmning 200m rolig. Drillserie: 6x50m catch-up
+ \, 6x50m fingertip drag\, 4x50m 6-3-6 (rotation). Herefter 4-6x50m build (
+ rolig->hurtig) m. 20s pause. Afslut med 200m nedjog i roligt tempo.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-20-tue_bike-715f533e-3fad-5158-a195-f9380eee1a54@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261020T173000
+DTEND;TZID=Europe/Copenhagen:20261020T181900
+SUMMARY:Cykel: Cykel – Kadence & grundstyrke (uge 8)
+DESCRIPTION:49 min i alt. Opvarmning 15 min stigende. Hovedsæt: 6x3 min h
+ øj kadence (95-100 rpm) @ Z2-Z3\, 2 min let mellem. Rolig udkørsel reste
+ n af tiden i Z1-Z2. Formål: vænne kroppen (og sædet!) til cykling\, ikk
+ e intensitet endnu.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-21-wed_swim-e5d2d5cd-cfcb-5a7e-8108-de49b26c2cc7@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261021T063000
+DTEND;TZID=Europe/Copenhagen:20261021T071000
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 8)
+DESCRIPTION:40 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-22-thu_run-24ff8062-0f27-5822-985f-0a8250a478ed@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261022T173000
+DTEND;TZID=Europe/Copenhagen:20261022T180000
+SUMMARY:Løb: Løb – Let progressiv (uge 8)
+DESCRIPTION:30 min. Rolig Z2\, de sidste 10 min gradvist op mod Z3-tempo (4
+ :07/km-4:35/km). Vedligehold af løbeform mens fokus er på svøm/cykel.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-sat_run-15adeb42-9d88-56c8-94d2-23d101f51ad8@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261024T090000
+DTEND;TZID=Europe/Copenhagen:20261024T095300
+SUMMARY:Løb: Løb – Langtur (uge 8)
+DESCRIPTION:53 min (0.9 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25-sun_bike-73961806-0d23-5da9-a84c-084efcdcf417@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261025T090000
+DTEND;TZID=Europe/Copenhagen:20261025T095900
+SUMMARY:Cykel: Cykel – Lang rolig tur (uge 8)
+DESCRIPTION:59 min (1.0 t) i Z1-Z2. Fokus på siddekomfort\, jævnt kadence
+  (85-95 rpm) og at vænne kroppen til tid i sadlen. Tag væske/næring hve
+ r 20-30 min for at træne rutinen tidligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26-mon_strength-a80c130b-fc65-5d15-9d90-177805f9ace1@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261026T180000
+DTEND;TZID=Europe/Copenhagen:20261026T182000
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 9)
+DESCRIPTION:20 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26-mon_swim-7567d68e-effe-5719-b5a3-a2094b4c3d19@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261026T063000
+DTEND;TZID=Europe/Copenhagen:20261026T070300
+SUMMARY:Svøm: Svøm – Teknik & vandfornemmelse (uge 9)
+DESCRIPTION:33 min i alt. Opvarmning 200m rolig. Drillserie: 6x50m catch-up
+ \, 6x50m fingertip drag\, 4x50m 6-3-6 (rotation). Herefter 4-6x50m build (
+ rolig->hurtig) m. 20s pause. Afslut med 200m nedjog i roligt tempo.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27-tue_bike_test-c5d4710b-5606-5dd7-94a5-5a22d2836806@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261027T173000
+DTEND;TZID=Europe/Copenhagen:20261027T183000
+SUMMARY:Cykel: Cykel – FTP-test (uge 9)
+DESCRIPTION:20 min opvarmning inkl. 3x3 min stigende. Herefter 20 min all-o
+ ut tidsforsøg (eller ramp-test hvis du har adgang). FTP ≈ 95% af 20-min
+  gennemsnitseffekt. Brug resultatet til at opdatere effektzonerne. 15 min 
+ nedjog.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-28-wed_swim_test-7a2d9f5d-8e5c-52ee-8891-f7928d9def23@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261028T063000
+DTEND;TZID=Europe/Copenhagen:20261028T071500
+SUMMARY:Svøm: Svøm – CSS-test (kritisk svømmehastighed) (uge 9)
+DESCRIPTION:Opvarmning 300-400m. Svøm 400m all-out (noter tid)\, 5-8 min p
+ ause\, svøm 200m all-out (noter tid). CSS-pace = (400m-tid − 200m-tid) 
+ / (400 − 200) × 100. Brug resultatet til at sætte svømmezoner for næ
+ ste blok.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-29-thu_run_test-7023af17-d042-5f6e-bf3f-665bf6b5bda7@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261029T173000
+DTEND;TZID=Europe/Copenhagen:20261029T182500
+SUMMARY:Løb: Løb – 5 km test (uge 9)
+DESCRIPTION:15 min opvarmning. 5 km all-out på bane/fladt underlag. Brug r
+ esultatet til at genberegne løbetempo-zoner. 10 min nedjog.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-31-sat_run-06735633-b931-56e8-ac15-cf71aece0d7c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261031T090000
+DTEND;TZID=Europe/Copenhagen:20261031T100700
+SUMMARY:Løb: Løb – Langtur (uge 9)
+DESCRIPTION:67 min (1.1 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-01-sun_bike-de37577e-645d-59fd-93b4-94f4102d41db@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261101T090000
+DTEND;TZID=Europe/Copenhagen:20261101T105000
+SUMMARY:Cykel: Cykel – Lang tur m. sweet spot-blokke (uge 9)
+DESCRIPTION:110 min (1.8 t). Størstedelen Z2\, med 2x15 min @ Z3 sweet spo
+ t indlagt undervejs. Øv nutrition-plan (60-90g kulhydrat/time) og væskei
+ ndtag.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-02-mon_strength-8e015b42-3414-5b15-99a9-06778a574db9@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261102T180000
+DTEND;TZID=Europe/Copenhagen:20261102T182300
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 10)
+DESCRIPTION:23 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-02-mon_swim-dae22fdf-a5d5-5bd3-a5a6-5ee86cca640d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261102T063000
+DTEND;TZID=Europe/Copenhagen:20261102T070600
+SUMMARY:Svøm: Svøm – Teknik & vandfornemmelse (uge 10)
+DESCRIPTION:36 min i alt. Opvarmning 200m rolig. Drillserie: 6x50m catch-up
+ \, 6x50m fingertip drag\, 4x50m 6-3-6 (rotation). Herefter 4-6x50m build (
+ rolig->hurtig) m. 20s pause. Afslut med 200m nedjog i roligt tempo.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-03-tue_bike-f04a2d4f-e037-5f8c-8142-2a78359c473e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261103T173000
+DTEND;TZID=Europe/Copenhagen:20261103T185200
+SUMMARY:Cykel: Cykel – Sweet spot intervaller (uge 10)
+DESCRIPTION:82 min i alt. Opvarmning 15 min. Hovedsæt: 3x10 min @ Z3-Z4 (8
+ 5-95% FTP\, ~162-181W)\, 5 min let mellem. Udkørsel Z1-Z2. Reps øges gen
+ nem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-04-wed_run-f2c4d80e-972c-56b3-80db-cb345faddee6@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261104T120000
+DTEND;TZID=Europe/Copenhagen:20261104T122100
+SUMMARY:Løb: Løb – Restitutionsløb (uge 10)
+DESCRIPTION:21 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-04-wed_swim-29fd6298-b413-5913-b085-4d935f352158@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261104T063000
+DTEND;TZID=Europe/Copenhagen:20261104T072500
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 10)
+DESCRIPTION:55 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-thu_run-0dac153e-de6a-5e5f-b6a6-d271da3f0222@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261105T173000
+DTEND;TZID=Europe/Copenhagen:20261105T181100
+SUMMARY:Løb: Løb – Tempo-intervaller (uge 10)
+DESCRIPTION:41 min i alt inkl. opvarmning/nedjog. Hovedsæt: 4-6x1000m @ Z3
+ -Z4 (3:51/km-4:35/km)\, 2 min let jog mellem. Reps øges gennem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-sat_run-a23e8183-7859-581b-9992-41ed87592b0e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261107T090000
+DTEND;TZID=Europe/Copenhagen:20261107T101500
+SUMMARY:Løb: Løb – Langtur (uge 10)
+DESCRIPTION:75 min (1.2 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-08-sun_bike-b8c18f78-15dd-59ef-a270-ce9baf3c7767@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261108T090000
+DTEND;TZID=Europe/Copenhagen:20261108T110300
+SUMMARY:Cykel: Cykel – Lang tur m. sweet spot-blokke (uge 10)
+DESCRIPTION:123 min (2.0 t). Størstedelen Z2\, med 2x15 min @ Z3 sweet spo
+ t indlagt undervejs. Øv nutrition-plan (60-90g kulhydrat/time) og væskei
+ ndtag.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-09-mon_strength-cdca82be-e88d-5844-899f-6783894cd54a@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261109T180000
+DTEND;TZID=Europe/Copenhagen:20261109T182500
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 11)
+DESCRIPTION:25 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-09-mon_swim-80a35311-2516-5fa7-af75-39bdf47085ef@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261109T063000
+DTEND;TZID=Europe/Copenhagen:20261109T071000
+SUMMARY:Svøm: Svøm – Teknik & vandfornemmelse (uge 11)
+DESCRIPTION:40 min i alt. Opvarmning 200m rolig. Drillserie: 6x50m catch-up
+ \, 6x50m fingertip drag\, 4x50m 6-3-6 (rotation). Herefter 4-6x50m build (
+ rolig->hurtig) m. 20s pause. Afslut med 200m nedjog i roligt tempo.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-10-tue_bike-772de905-3a8c-579e-8e4e-a6daac58a47e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261110T173000
+DTEND;TZID=Europe/Copenhagen:20261110T190100
+SUMMARY:Cykel: Cykel – Sweet spot intervaller (uge 11)
+DESCRIPTION:91 min i alt. Opvarmning 15 min. Hovedsæt: 3x10 min @ Z3-Z4 (8
+ 5-95% FTP\, ~162-181W)\, 5 min let mellem. Udkørsel Z1-Z2. Reps øges gen
+ nem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-wed_run-01786963-d9c1-5b55-9ed0-0a87581edb96@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261111T120000
+DTEND;TZID=Europe/Copenhagen:20261111T122300
+SUMMARY:Løb: Løb – Restitutionsløb (uge 11)
+DESCRIPTION:23 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-wed_swim-9aaf06cb-4e35-5b65-a45b-4c1b77f6d82d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261111T063000
+DTEND;TZID=Europe/Copenhagen:20261111T073000
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 11)
+DESCRIPTION:60 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-12-thu_run-247500e6-35a1-5704-8fb7-774a98ce0d0f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261112T173000
+DTEND;TZID=Europe/Copenhagen:20261112T181500
+SUMMARY:Løb: Løb – Tempo-intervaller (uge 11)
+DESCRIPTION:45 min i alt inkl. opvarmning/nedjog. Hovedsæt: 4-6x1000m @ Z3
+ -Z4 (3:51/km-4:35/km)\, 2 min let jog mellem. Reps øges gennem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-sat_run-b50cbe45-d2d2-5e31-9460-0de6f0e35432@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261114T090000
+DTEND;TZID=Europe/Copenhagen:20261114T102300
+SUMMARY:Løb: Løb – Langtur (uge 11)
+DESCRIPTION:83 min (1.4 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-sun_bike-d91389b3-0cc9-5e89-b4ae-4512a598b7ff@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261115T090000
+DTEND;TZID=Europe/Copenhagen:20261115T111600
+SUMMARY:Cykel: Cykel – Lang tur m. sweet spot-blokke (uge 11)
+DESCRIPTION:136 min (2.3 t). Størstedelen Z2\, med 2x15 min @ Z3 sweet spo
+ t indlagt undervejs. Øv nutrition-plan (60-90g kulhydrat/time) og væskei
+ ndtag.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-16-mon_strength-2e159be2-3b76-5b55-b9d0-e23824d24bda@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261116T180000
+DTEND;TZID=Europe/Copenhagen:20261116T181600
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 12)
+DESCRIPTION:16 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-16-mon_swim-22b64dd3-4803-5f7c-a7a1-fd5f21ab552f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261116T063000
+DTEND;TZID=Europe/Copenhagen:20261116T065500
+SUMMARY:Svøm: Svøm – Teknik & vandfornemmelse (uge 12)
+DESCRIPTION:25 min i alt. Opvarmning 200m rolig. Drillserie: 6x50m catch-up
+ \, 6x50m fingertip drag\, 4x50m 6-3-6 (rotation). Herefter 4-6x50m build (
+ rolig->hurtig) m. 20s pause. Afslut med 200m nedjog i roligt tempo.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-17-tue_bike-ebf8576e-3900-5b63-9e2d-0c373b911dae@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261117T173000
+DTEND;TZID=Europe/Copenhagen:20261117T182600
+SUMMARY:Cykel: Cykel – Sweet spot intervaller (uge 12)
+DESCRIPTION:56 min i alt. Opvarmning 15 min. Hovedsæt: 3x10 min @ Z3-Z4 (8
+ 5-95% FTP\, ~162-181W)\, 5 min let mellem. Udkørsel Z1-Z2. Reps øges gen
+ nem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-wed_run-019f97dd-504d-5847-9de6-2e1804cdf02c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261118T120000
+DTEND;TZID=Europe/Copenhagen:20261118T122000
+SUMMARY:Løb: Løb – Restitutionsløb (uge 12)
+DESCRIPTION:20 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-wed_swim-ca0e6f99-382b-5dcc-9c1a-e51991211f1f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261118T063000
+DTEND;TZID=Europe/Copenhagen:20261118T070700
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 12)
+DESCRIPTION:37 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-thu_run-64a706db-378c-50ce-b360-0c1c1bd20d51@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261119T173000
+DTEND;TZID=Europe/Copenhagen:20261119T180000
+SUMMARY:Løb: Løb – Tempo-intervaller (uge 12)
+DESCRIPTION:30 min i alt inkl. opvarmning/nedjog. Hovedsæt: 4-6x1000m @ Z3
+ -Z4 (3:51/km-4:35/km)\, 2 min let jog mellem. Reps øges gennem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-sat_run-134a6adb-85a7-522f-af95-8ed9f00f0d75@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261121T090000
+DTEND;TZID=Europe/Copenhagen:20261121T095100
+SUMMARY:Løb: Løb – Langtur (uge 12)
+DESCRIPTION:51 min (0.8 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-sun_bike-73bf1f84-d7a4-5048-81b5-9b4a3d91e5df@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261122T090000
+DTEND;TZID=Europe/Copenhagen:20261122T102400
+SUMMARY:Cykel: Cykel – Lang tur m. sweet spot-blokke (uge 12)
+DESCRIPTION:84 min (1.4 t). Størstedelen Z2\, med 2x15 min @ Z3 sweet spot
+  indlagt undervejs. Øv nutrition-plan (60-90g kulhydrat/time) og væskein
+ dtag.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-23-mon_strength-f865deed-6011-5666-8f28-7acb0461b65b@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261123T180000
+DTEND;TZID=Europe/Copenhagen:20261123T182300
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 13)
+DESCRIPTION:23 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-23-mon_swim-fa40d25c-ad97-5712-8c30-5f39d991869e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261123T063000
+DTEND;TZID=Europe/Copenhagen:20261123T070600
+SUMMARY:Svøm: Svøm – Teknik & vandfornemmelse (uge 13)
+DESCRIPTION:36 min i alt. Opvarmning 200m rolig. Drillserie: 6x50m catch-up
+ \, 6x50m fingertip drag\, 4x50m 6-3-6 (rotation). Herefter 4-6x50m build (
+ rolig->hurtig) m. 20s pause. Afslut med 200m nedjog i roligt tempo.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-24-tue_bike-3e9427a1-ebff-5bf3-b0d0-42869293eea3@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261124T173000
+DTEND;TZID=Europe/Copenhagen:20261124T185200
+SUMMARY:Cykel: Cykel – Sweet spot intervaller (uge 13)
+DESCRIPTION:82 min i alt. Opvarmning 15 min. Hovedsæt: 3x10 min @ Z3-Z4 (8
+ 5-95% FTP\, ~162-181W)\, 5 min let mellem. Udkørsel Z1-Z2. Reps øges gen
+ nem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-wed_run-dee16c0f-fe09-59ec-80d6-0cd6e9cbe7d4@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261125T120000
+DTEND;TZID=Europe/Copenhagen:20261125T122100
+SUMMARY:Løb: Løb – Restitutionsløb (uge 13)
+DESCRIPTION:21 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-wed_swim-78be7f96-76a2-5434-818a-c16d1f4cf7fc@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261125T063000
+DTEND;TZID=Europe/Copenhagen:20261125T072500
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 13)
+DESCRIPTION:55 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-26-thu_run-c4139d64-d250-540d-9458-17c08e4dd9b3@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261126T173000
+DTEND;TZID=Europe/Copenhagen:20261126T181100
+SUMMARY:Løb: Løb – Tempo-intervaller (uge 13)
+DESCRIPTION:41 min i alt inkl. opvarmning/nedjog. Hovedsæt: 4-6x1000m @ Z3
+ -Z4 (3:51/km-4:35/km)\, 2 min let jog mellem. Reps øges gennem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-28-sat_run-0f105d1a-018b-5933-95d5-34184b949089@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261128T090000
+DTEND;TZID=Europe/Copenhagen:20261128T101500
+SUMMARY:Løb: Løb – Langtur (uge 13)
+DESCRIPTION:75 min (1.2 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-29-sun_bike-95078606-e068-59b0-b095-eafebc459ead@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261129T090000
+DTEND;TZID=Europe/Copenhagen:20261129T110300
+SUMMARY:Cykel: Cykel – Lang tur m. sweet spot-blokke (uge 13)
+DESCRIPTION:123 min (2.0 t). Størstedelen Z2\, med 2x15 min @ Z3 sweet spo
+ t indlagt undervejs. Øv nutrition-plan (60-90g kulhydrat/time) og væskei
+ ndtag.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-30-mon_strength-b8d3507b-51f2-5fdc-a883-c34fcab1e3a1@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261130T180000
+DTEND;TZID=Europe/Copenhagen:20261130T182600
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 14)
+DESCRIPTION:26 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-30-mon_swim-aa0e98ff-d1a4-55b4-b611-dad6345caf63@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261130T063000
+DTEND;TZID=Europe/Copenhagen:20261130T071100
+SUMMARY:Svøm: Svøm – Teknik & vandfornemmelse (uge 14)
+DESCRIPTION:41 min i alt. Opvarmning 200m rolig. Drillserie: 6x50m catch-up
+ \, 6x50m fingertip drag\, 4x50m 6-3-6 (rotation). Herefter 4-6x50m build (
+ rolig->hurtig) m. 20s pause. Afslut med 200m nedjog i roligt tempo.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-01-tue_bike-ece8743b-dce7-5e73-84cf-823c552c5f30@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261201T173000
+DTEND;TZID=Europe/Copenhagen:20261201T190200
+SUMMARY:Cykel: Cykel – Sweet spot intervaller (uge 14)
+DESCRIPTION:92 min i alt. Opvarmning 15 min. Hovedsæt: 3x10 min @ Z3-Z4 (8
+ 5-95% FTP\, ~162-181W)\, 5 min let mellem. Udkørsel Z1-Z2. Reps øges gen
+ nem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-02-wed_run-c9c9e193-4cbb-5499-bd70-a48e5f5f4570@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261202T120000
+DTEND;TZID=Europe/Copenhagen:20261202T122300
+SUMMARY:Løb: Løb – Restitutionsløb (uge 14)
+DESCRIPTION:23 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-02-wed_swim-fe8fa041-ff51-527b-b0d8-39556658841e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261202T063000
+DTEND;TZID=Europe/Copenhagen:20261202T073100
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 14)
+DESCRIPTION:61 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-03-thu_run-dc24b7e9-11b3-52b3-8eb4-96999d5174cc@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261203T173000
+DTEND;TZID=Europe/Copenhagen:20261203T181600
+SUMMARY:Løb: Løb – Tempo-intervaller (uge 14)
+DESCRIPTION:46 min i alt inkl. opvarmning/nedjog. Hovedsæt: 4-6x1000m @ Z3
+ -Z4 (3:51/km-4:35/km)\, 2 min let jog mellem. Reps øges gennem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-05-sat_run-a7ea7da5-072b-5b69-bd94-1a61c90073e2@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261205T090000
+DTEND;TZID=Europe/Copenhagen:20261205T102400
+SUMMARY:Løb: Løb – Langtur (uge 14)
+DESCRIPTION:84 min (1.4 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-06-sun_bike-ccadfd91-07b4-5707-a1aa-b58f4daec25d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261206T090000
+DTEND;TZID=Europe/Copenhagen:20261206T111800
+SUMMARY:Cykel: Cykel – Lang tur m. sweet spot-blokke (uge 14)
+DESCRIPTION:138 min (2.3 t). Størstedelen Z2\, med 2x15 min @ Z3 sweet spo
+ t indlagt undervejs. Øv nutrition-plan (60-90g kulhydrat/time) og væskei
+ ndtag.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-07-mon_strength-32d6409e-d34c-5db2-9589-ea30eaa3ff35@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261207T180000
+DTEND;TZID=Europe/Copenhagen:20261207T182800
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 15)
+DESCRIPTION:28 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-07-mon_swim-88b9fc29-5134-5ad8-9491-01627f4d82b2@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261207T063000
+DTEND;TZID=Europe/Copenhagen:20261207T071600
+SUMMARY:Svøm: Svøm – Teknik & vandfornemmelse (uge 15)
+DESCRIPTION:46 min i alt. Opvarmning 200m rolig. Drillserie: 6x50m catch-up
+ \, 6x50m fingertip drag\, 4x50m 6-3-6 (rotation). Herefter 4-6x50m build (
+ rolig->hurtig) m. 20s pause. Afslut med 200m nedjog i roligt tempo.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-08-tue_bike-386552b2-f6bc-5203-943d-f418a639fad2@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261208T173000
+DTEND;TZID=Europe/Copenhagen:20261208T191300
+SUMMARY:Cykel: Cykel – Sweet spot intervaller (uge 15)
+DESCRIPTION:103 min i alt. Opvarmning 15 min. Hovedsæt: 3x10 min @ Z3-Z4 (
+ 85-95% FTP\, ~162-181W)\, 5 min let mellem. Udkørsel Z1-Z2. Reps øges ge
+ nnem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-09-wed_run-18c5b057-2c85-57eb-9979-f8efce993ab2@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261209T120000
+DTEND;TZID=Europe/Copenhagen:20261209T122600
+SUMMARY:Løb: Løb – Restitutionsløb (uge 15)
+DESCRIPTION:26 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-09-wed_swim-4e305327-7c1e-589c-a4b0-b448d4677aa5@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261209T063000
+DTEND;TZID=Europe/Copenhagen:20261209T073800
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 15)
+DESCRIPTION:68 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-10-thu_run-9daf4386-cefd-588b-ac36-32b852a6964d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261210T173000
+DTEND;TZID=Europe/Copenhagen:20261210T182100
+SUMMARY:Løb: Løb – Tempo-intervaller (uge 15)
+DESCRIPTION:51 min i alt inkl. opvarmning/nedjog. Hovedsæt: 4-6x1000m @ Z3
+ -Z4 (3:51/km-4:35/km)\, 2 min let jog mellem. Reps øges gennem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-12-sat_run-1132989a-eaa3-5a41-aae7-1cab7a8ae8e7@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261212T090000
+DTEND;TZID=Europe/Copenhagen:20261212T103400
+SUMMARY:Løb: Løb – Langtur (uge 15)
+DESCRIPTION:94 min (1.6 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-13-sun_bike-eab64808-6b38-58d0-8c14-c2511b2a0f74@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261213T090000
+DTEND;TZID=Europe/Copenhagen:20261213T113400
+SUMMARY:Cykel: Cykel – Lang tur m. sweet spot-blokke (uge 15)
+DESCRIPTION:154 min (2.6 t). Størstedelen Z2\, med 2x15 min @ Z3 sweet spo
+ t indlagt undervejs. Øv nutrition-plan (60-90g kulhydrat/time) og væskei
+ ndtag.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-14-mon_strength-c6ce8665-c152-5578-8694-ad75c5e75898@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261214T180000
+DTEND;TZID=Europe/Copenhagen:20261214T181800
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 16)
+DESCRIPTION:18 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-14-mon_swim-2b410b84-3208-58a6-b575-cb82e0f611bc@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261214T063000
+DTEND;TZID=Europe/Copenhagen:20261214T065800
+SUMMARY:Svøm: Svøm – Teknik & vandfornemmelse (uge 16)
+DESCRIPTION:28 min i alt. Opvarmning 200m rolig. Drillserie: 6x50m catch-up
+ \, 6x50m fingertip drag\, 4x50m 6-3-6 (rotation). Herefter 4-6x50m build (
+ rolig->hurtig) m. 20s pause. Afslut med 200m nedjog i roligt tempo.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-15-tue_bike-eab011f1-1bc0-5c5e-b961-0c0d38f339e2@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261215T173000
+DTEND;TZID=Europe/Copenhagen:20261215T183400
+SUMMARY:Cykel: Cykel – Sweet spot intervaller (uge 16)
+DESCRIPTION:64 min i alt. Opvarmning 15 min. Hovedsæt: 3x10 min @ Z3-Z4 (8
+ 5-95% FTP\, ~162-181W)\, 5 min let mellem. Udkørsel Z1-Z2. Reps øges gen
+ nem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-16-wed_run-eff330c1-9549-5ffd-9444-a6a23537de3f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261216T120000
+DTEND;TZID=Europe/Copenhagen:20261216T122000
+SUMMARY:Løb: Løb – Restitutionsløb (uge 16)
+DESCRIPTION:20 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-16-wed_swim-6e955e1f-c62e-52ea-9215-5d1a742e01b0@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261216T063000
+DTEND;TZID=Europe/Copenhagen:20261216T071200
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 16)
+DESCRIPTION:42 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-17-thu_run-47557229-d867-5291-9c61-ada45c8e68e8@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261217T173000
+DTEND;TZID=Europe/Copenhagen:20261217T180200
+SUMMARY:Løb: Løb – Tempo-intervaller (uge 16)
+DESCRIPTION:32 min i alt inkl. opvarmning/nedjog. Hovedsæt: 4-6x1000m @ Z3
+ -Z4 (3:51/km-4:35/km)\, 2 min let jog mellem. Reps øges gennem blokken.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-19-sat_run-40d93fe6-501f-5031-bac4-04fbe23f0bd4@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261219T090000
+DTEND;TZID=Europe/Copenhagen:20261219T095800
+SUMMARY:Løb: Løb – Langtur (uge 16)
+DESCRIPTION:58 min (1.0 t) jævnt Z2. Bygger den aerobe base – ingen fart
+ leg\, hold det roligt.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-20-sun_bike-30d6c4dd-20b0-56dd-b8db-4ee31d949c97@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261220T090000
+DTEND;TZID=Europe/Copenhagen:20261220T103600
+SUMMARY:Cykel: Cykel – Lang tur m. sweet spot-blokke (uge 16)
+DESCRIPTION:96 min (1.6 t). Størstedelen Z2\, med 2x15 min @ Z3 sweet spot
+  indlagt undervejs. Øv nutrition-plan (60-90g kulhydrat/time) og væskein
+ dtag.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-21-mon_strength-065f39f7-0ff1-5a24-83ec-26a188fb4fbe@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261221T180000
+DTEND;TZID=Europe/Copenhagen:20261221T182600
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 17)
+DESCRIPTION:26 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-21-mon_swim-be9156d7-b38b-5f04-977d-133033ae61f6@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261221T063000
+DTEND;TZID=Europe/Copenhagen:20261221T070700
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 17)
+DESCRIPTION:37 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-22-tue_bike_test-91b0cfd9-680d-5fcb-aa08-5124470e1cc3@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261222T173000
+DTEND;TZID=Europe/Copenhagen:20261222T183000
+SUMMARY:Cykel: Cykel – FTP-test (uge 17)
+DESCRIPTION:20 min opvarmning inkl. 3x3 min stigende. Herefter 20 min all-o
+ ut tidsforsøg (eller ramp-test hvis du har adgang). FTP ≈ 95% af 20-min
+  gennemsnitseffekt. Brug resultatet til at opdatere effektzonerne. 15 min 
+ nedjog.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-23-wed_swim_test-4e990c3a-74ce-5512-aedd-ee72b14dc36f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261223T063000
+DTEND;TZID=Europe/Copenhagen:20261223T071500
+SUMMARY:Svøm: Svøm – CSS-test (kritisk svømmehastighed) (uge 17)
+DESCRIPTION:Opvarmning 300-400m. Svøm 400m all-out (noter tid)\, 5-8 min p
+ ause\, svøm 200m all-out (noter tid). CSS-pace = (400m-tid − 200m-tid) 
+ / (400 − 200) × 100. Brug resultatet til at sætte svømmezoner for næ
+ ste blok.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-24-thu_run-d0fd2a15-6bdc-5caf-b5ef-47547c595645@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261224T173000
+DTEND;TZID=Europe/Copenhagen:20261224T181600
+SUMMARY:Løb: Løb – Threshold-intervaller (uge 17)
+DESCRIPTION:46 min i alt. Hovedsæt: 3-5x1\,6 km @ Z4 threshold (3:51/km-4:
+ 07/km)\, 90s let jog mellem.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-26-sat_run-f8c9555f-d853-55df-97d1-303f7272750c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261226T090000
+DTEND;TZID=Europe/Copenhagen:20261226T102400
+SUMMARY:Løb: Løb – Langtur m. fartstigning (uge 17)
+DESCRIPTION:84 min (1.4 t). Z2 base\, de sidste 15-20 min i Z3. Øv væske/
+ gel-indtag undervejs.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-27-sun_bike-1ece104e-0c39-5bfc-8cec-9c50db82b251@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261227T090000
+DTEND;TZID=Europe/Copenhagen:20261227T113600
+SUMMARY:Cykel: Cykel – Lang tur m. threshold-blokke (uge 17)
+DESCRIPTION:156 min (2.6 t). Z2 base med 2-3x15-20 min @ Z4 threshold indla
+ gt. Praktiser race-nutrition for fuld distance. Direkte efter: 15 min løb
+  af cyklen (brick) i Z2\, fokus på at finde løbeben hurtigt (T2-træning
+ ).
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-27-sun_brick-61de8329-b878-5b80-8daa-b5e3d72a2b61@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261227T113600
+DTEND;TZID=Europe/Copenhagen:20261227T115100
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 17)
+DESCRIPTION:15 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-28-mon_strength-4e7a6361-76a4-501a-8d5d-b814bf0f0159@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261228T180000
+DTEND;TZID=Europe/Copenhagen:20261228T182800
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 18)
+DESCRIPTION:28 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-28-mon_swim-3d583ecd-30a5-5a09-a2dd-ec646df448ef@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261228T063000
+DTEND;TZID=Europe/Copenhagen:20261228T071100
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 18)
+DESCRIPTION:41 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-29-tue_bike-2969b4f2-0eaf-52d3-9da6-819f16acbccd@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261229T173000
+DTEND;TZID=Europe/Copenhagen:20261229T190400
+SUMMARY:Cykel: Cykel – Threshold intervaller (uge 18)
+DESCRIPTION:94 min i alt. Opvarmning 15 min. Hovedsæt: 4x8 min @ Z4 (91-10
+ 5% FTP\, ~173-200W)\, 4 min let mellem. Udkørsel Z1-Z2.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-30-wed_run-9d8a7a01-cc6e-51af-b137-21d5075ce6bc@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261230T120000
+DTEND;TZID=Europe/Copenhagen:20261230T122600
+SUMMARY:Løb: Løb – Restitutionsløb (uge 18)
+DESCRIPTION:26 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-30-wed_swim-24378683-d670-562e-a7d3-5e8d91e55523@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261230T063000
+DTEND;TZID=Europe/Copenhagen:20261230T073200
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 18)
+DESCRIPTION:62 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-31-thu_run-05a10546-aab5-514e-98a6-833a920f1df1@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20261231T173000
+DTEND;TZID=Europe/Copenhagen:20261231T182100
+SUMMARY:Løb: Løb – Threshold-intervaller (uge 18)
+DESCRIPTION:51 min i alt. Hovedsæt: 3-5x1\,6 km @ Z4 threshold (3:51/km-4:
+ 07/km)\, 90s let jog mellem.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-02-sat_run-8166b30a-8441-511f-ae5a-b017158cdd6d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270102T090000
+DTEND;TZID=Europe/Copenhagen:20270102T103400
+SUMMARY:Løb: Løb – Langtur m. fartstigning (uge 18)
+DESCRIPTION:94 min (1.6 t). Z2 base\, de sidste 15-20 min i Z3. Øv væske/
+ gel-indtag undervejs.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-03-sun_bike-12ab0e1c-815b-5cae-9f56-8e815adb9a4e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270103T090000
+DTEND;TZID=Europe/Copenhagen:20270103T115400
+SUMMARY:Cykel: Cykel – Lang tur m. threshold-blokke (uge 18)
+DESCRIPTION:174 min (2.9 t). Z2 base med 2-3x15-20 min @ Z4 threshold indla
+ gt. Praktiser race-nutrition for fuld distance. Direkte efter: 15 min løb
+  af cyklen (brick) i Z2\, fokus på at finde løbeben hurtigt (T2-træning
+ ).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-03-sun_brick-95a675c9-75dc-5572-80a9-23f108e9ecb6@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270103T115400
+DTEND;TZID=Europe/Copenhagen:20270103T120900
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 18)
+DESCRIPTION:15 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-04-mon_strength-6a7a42c8-a72f-518a-bcd7-0b760fb53f15@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270104T180000
+DTEND;TZID=Europe/Copenhagen:20270104T183200
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 19)
+DESCRIPTION:32 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-04-mon_swim-f707461c-31dc-5a15-8bb1-aea0c9431994@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270104T063000
+DTEND;TZID=Europe/Copenhagen:20270104T071500
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 19)
+DESCRIPTION:45 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-05-tue_bike-aea05fc7-6922-58ee-9030-479c67691e71@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270105T173000
+DTEND;TZID=Europe/Copenhagen:20270105T191400
+SUMMARY:Cykel: Cykel – Threshold intervaller (uge 19)
+DESCRIPTION:104 min i alt. Opvarmning 15 min. Hovedsæt: 4x8 min @ Z4 (91-1
+ 05% FTP\, ~173-200W)\, 4 min let mellem. Udkørsel Z1-Z2.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-06-wed_run-2aa765e2-fcdd-500f-bd75-47356ac7e2ad@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270106T120000
+DTEND;TZID=Europe/Copenhagen:20270106T122800
+SUMMARY:Løb: Løb – Restitutionsløb (uge 19)
+DESCRIPTION:28 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-06-wed_swim-f03413e7-a5d8-5d0c-9794-88c428755658@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270106T063000
+DTEND;TZID=Europe/Copenhagen:20270106T073800
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 19)
+DESCRIPTION:68 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-07-thu_run-738d9d5e-a33d-5dcf-9659-82e0b1da163b@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270107T173000
+DTEND;TZID=Europe/Copenhagen:20270107T182700
+SUMMARY:Løb: Løb – Threshold-intervaller (uge 19)
+DESCRIPTION:57 min i alt. Hovedsæt: 3-5x1\,6 km @ Z4 threshold (3:51/km-4:
+ 07/km)\, 90s let jog mellem.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-09-sat_run-cdd61ec6-b330-571d-a38b-2664c8fbc771@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270109T090000
+DTEND;TZID=Europe/Copenhagen:20270109T104400
+SUMMARY:Løb: Løb – Langtur m. fartstigning (uge 19)
+DESCRIPTION:104 min (1.7 t). Z2 base\, de sidste 15-20 min i Z3. Øv væske
+ /gel-indtag undervejs.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-10-sun_bike-f36aa10f-279c-5109-a03d-df4bb0f67966@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270110T090000
+DTEND;TZID=Europe/Copenhagen:20270110T121200
+SUMMARY:Cykel: Cykel – Lang tur m. threshold-blokke (uge 19)
+DESCRIPTION:192 min (3.2 t). Z2 base med 2-3x15-20 min @ Z4 threshold indla
+ gt. Praktiser race-nutrition for fuld distance. Direkte efter: 15 min løb
+  af cyklen (brick) i Z2\, fokus på at finde løbeben hurtigt (T2-træning
+ ).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-10-sun_brick-523299d4-9cb6-5d71-a8cf-53146ee7d522@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270110T121200
+DTEND;TZID=Europe/Copenhagen:20270110T122700
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 19)
+DESCRIPTION:15 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-11-mon_strength-12b36ac6-4028-5e70-9ecc-296befc6a8f1@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270111T180000
+DTEND;TZID=Europe/Copenhagen:20270111T182000
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 20)
+DESCRIPTION:20 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-11-mon_swim-5ed4b8b9-d4b0-5090-b399-86fc183b0f6b@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270111T063000
+DTEND;TZID=Europe/Copenhagen:20270111T065800
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 20)
+DESCRIPTION:28 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-12-tue_bike-585f2d3f-acb8-5e9f-ba44-511035dd69d0@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270112T173000
+DTEND;TZID=Europe/Copenhagen:20270112T183400
+SUMMARY:Cykel: Cykel – Threshold intervaller (uge 20)
+DESCRIPTION:64 min i alt. Opvarmning 15 min. Hovedsæt: 4x8 min @ Z4 (91-10
+ 5% FTP\, ~173-200W)\, 4 min let mellem. Udkørsel Z1-Z2.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-13-wed_run-0293fa0d-df15-5bfb-a404-831a618e8fc4@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270113T120000
+DTEND;TZID=Europe/Copenhagen:20270113T122000
+SUMMARY:Løb: Løb – Restitutionsløb (uge 20)
+DESCRIPTION:20 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-13-wed_swim-64713437-fb97-5f83-a9c1-8ec1fe212526@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270113T063000
+DTEND;TZID=Europe/Copenhagen:20270113T071200
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 20)
+DESCRIPTION:42 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-14-thu_run-1a2a30be-6198-5e97-9e03-00d6f1cc4ef2@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270114T173000
+DTEND;TZID=Europe/Copenhagen:20270114T180500
+SUMMARY:Løb: Løb – Threshold-intervaller (uge 20)
+DESCRIPTION:35 min i alt. Hovedsæt: 3-5x1\,6 km @ Z4 threshold (3:51/km-4:
+ 07/km)\, 90s let jog mellem.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-16-sat_run-31f581a1-1d3f-52f9-8faa-84680759415c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270116T090000
+DTEND;TZID=Europe/Copenhagen:20270116T100400
+SUMMARY:Løb: Løb – Langtur m. fartstigning (uge 20)
+DESCRIPTION:64 min (1.1 t). Z2 base\, de sidste 15-20 min i Z3. Øv væske/
+ gel-indtag undervejs.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-17-sun_bike-56116ece-955f-54d9-8220-0f575b30fda1@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270117T090000
+DTEND;TZID=Europe/Copenhagen:20270117T105900
+SUMMARY:Cykel: Cykel – Lang tur m. threshold-blokke (uge 20)
+DESCRIPTION:119 min (2.0 t). Z2 base med 2-3x15-20 min @ Z4 threshold indla
+ gt. Praktiser race-nutrition for fuld distance. Direkte efter: 15 min løb
+  af cyklen (brick) i Z2\, fokus på at finde løbeben hurtigt (T2-træning
+ ).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-17-sun_brick-b34bb0a7-b2db-5be1-ad4c-ce9a7a1fa204@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270117T105900
+DTEND;TZID=Europe/Copenhagen:20270117T111400
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 20)
+DESCRIPTION:15 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-18-mon_strength-cbb0bea8-3555-5bf1-a942-e3627c476c6d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270118T180000
+DTEND;TZID=Europe/Copenhagen:20270118T182800
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 21)
+DESCRIPTION:28 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-18-mon_swim-5f0432c6-c20b-5f45-b5fd-6107a1ec7fb5@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270118T063000
+DTEND;TZID=Europe/Copenhagen:20270118T071000
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 21)
+DESCRIPTION:40 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-19-tue_bike-87ce0f51-9a4d-54fc-95ae-65e7b7ea9950@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270119T173000
+DTEND;TZID=Europe/Copenhagen:20270119T190200
+SUMMARY:Cykel: Cykel – Threshold intervaller (uge 21)
+DESCRIPTION:92 min i alt. Opvarmning 15 min. Hovedsæt: 4x8 min @ Z4 (91-10
+ 5% FTP\, ~173-200W)\, 4 min let mellem. Udkørsel Z1-Z2.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-20-wed_run-57b258ae-553f-512b-90de-75732866ee82@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270120T120000
+DTEND;TZID=Europe/Copenhagen:20270120T122500
+SUMMARY:Løb: Løb – Restitutionsløb (uge 21)
+DESCRIPTION:25 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-20-wed_swim-6c1f50ee-39a2-50c2-97f2-06332c89fcee@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270120T063000
+DTEND;TZID=Europe/Copenhagen:20270120T073000
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 21)
+DESCRIPTION:60 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-21-thu_run-69c27098-8160-56eb-b891-7689fe82a6b0@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270121T173000
+DTEND;TZID=Europe/Copenhagen:20270121T182000
+SUMMARY:Løb: Løb – Threshold-intervaller (uge 21)
+DESCRIPTION:50 min i alt. Hovedsæt: 3-5x1\,6 km @ Z4 threshold (3:51/km-4:
+ 07/km)\, 90s let jog mellem.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-23-sat_run-8fb59184-b547-5fd5-909d-1247954932f5@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270123T090000
+DTEND;TZID=Europe/Copenhagen:20270123T103200
+SUMMARY:Løb: Løb – Langtur m. fartstigning (uge 21)
+DESCRIPTION:92 min (1.5 t). Z2 base\, de sidste 15-20 min i Z3. Øv væske/
+ gel-indtag undervejs.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-24-sun_bike-c2ec4fc4-71f5-5cdd-9533-9785510fc71a@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270124T090000
+DTEND;TZID=Europe/Copenhagen:20270124T115000
+SUMMARY:Cykel: Cykel – Lang tur m. threshold-blokke (uge 21)
+DESCRIPTION:170 min (2.8 t). Z2 base med 2-3x15-20 min @ Z4 threshold indla
+ gt. Praktiser race-nutrition for fuld distance. Direkte efter: 15 min løb
+  af cyklen (brick) i Z2\, fokus på at finde løbeben hurtigt (T2-træning
+ ).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-24-sun_brick-2efd7b98-258f-5cc3-80bf-a298ad3a0b26@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270124T115000
+DTEND;TZID=Europe/Copenhagen:20270124T120500
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 21)
+DESCRIPTION:15 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-25-mon_strength-f806ba1b-77a9-5e86-981e-74c72a8b0b07@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270125T180000
+DTEND;TZID=Europe/Copenhagen:20270125T183100
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 22)
+DESCRIPTION:31 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-25-mon_swim-f5692372-d7f3-5048-9ba2-15c55849790f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270125T063000
+DTEND;TZID=Europe/Copenhagen:20270125T071500
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 22)
+DESCRIPTION:45 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-26-tue_bike-037df59e-bdb9-520c-aebc-98b38205cca6@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270126T173000
+DTEND;TZID=Europe/Copenhagen:20270126T191300
+SUMMARY:Cykel: Cykel – Threshold intervaller (uge 22)
+DESCRIPTION:103 min i alt. Opvarmning 15 min. Hovedsæt: 4x8 min @ Z4 (91-1
+ 05% FTP\, ~173-200W)\, 4 min let mellem. Udkørsel Z1-Z2.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-27-wed_run-8279dda0-0512-5824-b75a-3796655d25fb@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270127T120000
+DTEND;TZID=Europe/Copenhagen:20270127T122800
+SUMMARY:Løb: Løb – Restitutionsløb (uge 22)
+DESCRIPTION:28 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-27-wed_swim-fc83407b-82d6-5ba9-b22a-4c12a1b332a7@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270127T063000
+DTEND;TZID=Europe/Copenhagen:20270127T073700
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 22)
+DESCRIPTION:67 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-28-thu_run-461ace57-b8e8-5907-bf38-a15238d839db@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270128T173000
+DTEND;TZID=Europe/Copenhagen:20270128T182600
+SUMMARY:Løb: Løb – Threshold-intervaller (uge 22)
+DESCRIPTION:56 min i alt. Hovedsæt: 3-5x1\,6 km @ Z4 threshold (3:51/km-4:
+ 07/km)\, 90s let jog mellem.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-30-sat_run-f266996a-6437-54fd-8180-50eed0d76271@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270130T090000
+DTEND;TZID=Europe/Copenhagen:20270130T104300
+SUMMARY:Løb: Løb – Langtur m. fartstigning (uge 22)
+DESCRIPTION:103 min (1.7 t). Z2 base\, de sidste 15-20 min i Z3. Øv væske
+ /gel-indtag undervejs.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-31-sun_bike-58ceabad-f90f-5a8d-9ee7-6b5faa9882ed@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270131T090000
+DTEND;TZID=Europe/Copenhagen:20270131T121100
+SUMMARY:Cykel: Cykel – Lang tur m. threshold-blokke (uge 22)
+DESCRIPTION:191 min (3.2 t). Z2 base med 2-3x15-20 min @ Z4 threshold indla
+ gt. Praktiser race-nutrition for fuld distance. Direkte efter: 15 min løb
+  af cyklen (brick) i Z2\, fokus på at finde løbeben hurtigt (T2-træning
+ ).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-31-sun_brick-3b37caed-78b8-5fea-a049-9310277c300f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270131T121100
+DTEND;TZID=Europe/Copenhagen:20270131T122600
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 22)
+DESCRIPTION:15 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-01-mon_strength-e6881dd2-56e6-55f8-807b-1655cdb04775@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270201T180000
+DTEND;TZID=Europe/Copenhagen:20270201T183500
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 23)
+DESCRIPTION:35 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-01-mon_swim-d8cb8fa2-9295-5114-b382-64f24058224b@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270201T063000
+DTEND;TZID=Europe/Copenhagen:20270201T072000
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 23)
+DESCRIPTION:50 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-02-tue_bike-81f64142-aeb6-5ed7-96f3-b918e4f5e12f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270202T173000
+DTEND;TZID=Europe/Copenhagen:20270202T192400
+SUMMARY:Cykel: Cykel – Threshold intervaller (uge 23)
+DESCRIPTION:114 min i alt. Opvarmning 15 min. Hovedsæt: 4x8 min @ Z4 (91-1
+ 05% FTP\, ~173-200W)\, 4 min let mellem. Udkørsel Z1-Z2.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-03-wed_run-17ccf588-1a66-5f3f-822f-90ba9f2f11e7@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270203T120000
+DTEND;TZID=Europe/Copenhagen:20270203T123100
+SUMMARY:Løb: Løb – Restitutionsløb (uge 23)
+DESCRIPTION:31 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-03-wed_swim-7e83a013-5850-5c9a-acda-e53e53792bfb@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270203T063000
+DTEND;TZID=Europe/Copenhagen:20270203T074500
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 23)
+DESCRIPTION:75 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-04-thu_run-5508c15a-dc7f-582f-b50d-36cf609a2752@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270204T173000
+DTEND;TZID=Europe/Copenhagen:20270204T183300
+SUMMARY:Løb: Løb – Threshold-intervaller (uge 23)
+DESCRIPTION:63 min i alt. Hovedsæt: 3-5x1\,6 km @ Z4 threshold (3:51/km-4:
+ 07/km)\, 90s let jog mellem.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-06-sat_run-de35c4b6-ebc3-5b26-99e0-96b26fbc642e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270206T090000
+DTEND;TZID=Europe/Copenhagen:20270206T105500
+SUMMARY:Løb: Løb – Langtur m. fartstigning (uge 23)
+DESCRIPTION:115 min (1.9 t). Z2 base\, de sidste 15-20 min i Z3. Øv væske
+ /gel-indtag undervejs.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-07-sun_bike-9a823565-fcf1-5ac8-b5ba-cb6f8fa88072@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270207T090000
+DTEND;TZID=Europe/Copenhagen:20270207T123300
+SUMMARY:Cykel: Cykel – Lang tur m. threshold-blokke (uge 23)
+DESCRIPTION:213 min (3.5 t). Z2 base med 2-3x15-20 min @ Z4 threshold indla
+ gt. Praktiser race-nutrition for fuld distance. Direkte efter: 15 min løb
+  af cyklen (brick) i Z2\, fokus på at finde løbeben hurtigt (T2-træning
+ ).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-07-sun_brick-397aed41-3bf3-5541-ab73-0a21b5856cf6@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270207T123300
+DTEND;TZID=Europe/Copenhagen:20270207T124800
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 23)
+DESCRIPTION:15 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-08-mon_strength-8aa62c5c-4ac8-565d-8711-be43ae3e66f8@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270208T180000
+DTEND;TZID=Europe/Copenhagen:20270208T182200
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 24)
+DESCRIPTION:22 min. Fokus på cykel/løbe-specifik styrke: enbens squats\, 
+ nordic hamstring\, core (anti-rotation)\, skulder/rygstabilitet til svøm.
+  Progressiv belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-08-mon_swim-34df1eaf-977f-59d0-a11c-fb8a3c6731a6@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270208T063000
+DTEND;TZID=Europe/Copenhagen:20270208T070100
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 24)
+DESCRIPTION:31 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-09-tue_bike-1bd6ab3a-7d5f-5b04-bff6-82149ba79430@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270209T173000
+DTEND;TZID=Europe/Copenhagen:20270209T184100
+SUMMARY:Cykel: Cykel – Threshold intervaller (uge 24)
+DESCRIPTION:71 min i alt. Opvarmning 15 min. Hovedsæt: 4x8 min @ Z4 (91-10
+ 5% FTP\, ~173-200W)\, 4 min let mellem. Udkørsel Z1-Z2.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-10-wed_run-c791911a-fa4f-5ba1-905b-ff91e482d6d3@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270210T120000
+DTEND;TZID=Europe/Copenhagen:20270210T122000
+SUMMARY:Løb: Løb – Restitutionsløb (uge 24)
+DESCRIPTION:20 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-10-wed_swim-df0457c4-3544-51f9-9106-80a3a4f7f0b9@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270210T063000
+DTEND;TZID=Europe/Copenhagen:20270210T071700
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 24)
+DESCRIPTION:47 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-11-thu_run-17383478-cdeb-5d1d-84c8-3da434ec47b0@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270211T173000
+DTEND;TZID=Europe/Copenhagen:20270211T180900
+SUMMARY:Løb: Løb – Threshold-intervaller (uge 24)
+DESCRIPTION:39 min i alt. Hovedsæt: 3-5x1\,6 km @ Z4 threshold (3:51/km-4:
+ 07/km)\, 90s let jog mellem.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-13-sat_run-7b77ffca-e15a-56d8-80ea-0afe069aec60@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270213T090000
+DTEND;TZID=Europe/Copenhagen:20270213T101100
+SUMMARY:Løb: Løb – Langtur m. fartstigning (uge 24)
+DESCRIPTION:71 min (1.2 t). Z2 base\, de sidste 15-20 min i Z3. Øv væske/
+ gel-indtag undervejs.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-14-sun_bike-c2166119-981e-5412-acec-8f40b20282ed@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270214T090000
+DTEND;TZID=Europe/Copenhagen:20270214T111200
+SUMMARY:Cykel: Cykel – Lang tur m. threshold-blokke (uge 24)
+DESCRIPTION:132 min (2.2 t). Z2 base med 2-3x15-20 min @ Z4 threshold indla
+ gt. Praktiser race-nutrition for fuld distance. Direkte efter: 15 min løb
+  af cyklen (brick) i Z2\, fokus på at finde løbeben hurtigt (T2-træning
+ ).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-14-sun_brick-87fe9138-2a8f-5e93-9eec-5bd5b0c83177@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270214T111200
+DTEND;TZID=Europe/Copenhagen:20270214T112700
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 24)
+DESCRIPTION:15 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-15-mon_strength-0fa850c1-8d27-5d25-88fc-989d28dfef1c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270215T180000
+DTEND;TZID=Europe/Copenhagen:20270215T183100
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 25)
+DESCRIPTION:31 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-15-mon_swim-a06d97f4-04a3-52c8-9c68-4a4ed24f07b4@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270215T063000
+DTEND;TZID=Europe/Copenhagen:20270215T070700
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 25)
+DESCRIPTION:37 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-16-tue_bike_test-f2b12fc7-7d3d-54d2-aff8-1b132b75276f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270216T173000
+DTEND;TZID=Europe/Copenhagen:20270216T183000
+SUMMARY:Cykel: Cykel – FTP-test (uge 25)
+DESCRIPTION:20 min opvarmning inkl. 3x3 min stigende. Herefter 20 min all-o
+ ut tidsforsøg (eller ramp-test hvis du har adgang). FTP ≈ 95% af 20-min
+  gennemsnitseffekt. Brug resultatet til at opdatere effektzonerne. 15 min 
+ nedjog.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-17-wed_swim_test-f989ca8b-34c0-5fb4-b2ab-1ff97835c4df@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270217T063000
+DTEND;TZID=Europe/Copenhagen:20270217T071500
+SUMMARY:Svøm: Svøm – CSS-test (kritisk svømmehastighed) (uge 25)
+DESCRIPTION:Opvarmning 300-400m. Svøm 400m all-out (noter tid)\, 5-8 min p
+ ause\, svøm 200m all-out (noter tid). CSS-pace = (400m-tid − 200m-tid) 
+ / (400 − 200) × 100. Brug resultatet til at sætte svømmezoner for næ
+ ste blok.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-18-thu_run_test-fccef7fd-207f-5aca-9769-ae373abeece0@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270218T173000
+DTEND;TZID=Europe/Copenhagen:20270218T182500
+SUMMARY:Løb: Løb – 5 km test (uge 25)
+DESCRIPTION:15 min opvarmning. 5 km all-out på bane/fladt underlag. Brug r
+ esultatet til at genberegne løbetempo-zoner. 10 min nedjog.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-20-sat_run-8643dbb3-38de-5094-b7c5-4507978e90f2@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270220T090000
+DTEND;TZID=Europe/Copenhagen:20270220T104100
+SUMMARY:Løb: Løb – Langtur i race-tempo (uge 25)
+DESCRIPTION:101 min (1.7 t). Z2 med 20-30 min i target IM-maratontempo indl
+ agt. Simulerer race-forhold – øv sko/tøj/nutrition som på dagen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-21-sun_bike-c16a4775-2284-5b82-a0d7-507866468e4c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270221T090000
+DTEND;TZID=Europe/Copenhagen:20270221T123400
+SUMMARY:Cykel: Cykel – Lang tur i IM-tempo (uge 25)
+DESCRIPTION:214 min (3.6 t). Store dele i target IM-watt (~143W). Simulerer
+  race-pacing over lang tid – vigtigt at øve disciplin i at holde igen t
+ idligt. Direkte efter: 20 min løb af cyklen (brick) i Z2\, fokus på at f
+ inde løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-21-sun_brick-9f56d3c4-b3cb-5a38-8a78-6f7c94b750cb@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270221T123400
+DTEND;TZID=Europe/Copenhagen:20270221T125400
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 25)
+DESCRIPTION:20 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-22-mon_strength-63538ef0-8e46-52ef-b8b1-87ed65b6360e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270222T180000
+DTEND;TZID=Europe/Copenhagen:20270222T183400
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 26)
+DESCRIPTION:34 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-22-mon_swim-f74fca27-2583-58d7-82c1-6c763788bc86@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270222T063000
+DTEND;TZID=Europe/Copenhagen:20270222T071100
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 26)
+DESCRIPTION:41 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-23-tue_bike-7a1e88ce-9e9b-5d83-9591-8f4ec4bb3c65@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270223T173000
+DTEND;TZID=Europe/Copenhagen:20270223T191300
+SUMMARY:Cykel: Cykel – Race-specifik sweet spot (uge 26)
+DESCRIPTION:103 min i alt. Opvarmning 15 min. Hovedsæt: 2x20 min @ Z3-Z4 (
+ ca. Ironman-watt\, ~143-162W)\, 8 min let mellem. Simulerer race-belastnin
+ g over tid.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-24-wed_run-de740076-272c-51bb-868a-4064d8cad410@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270224T120000
+DTEND;TZID=Europe/Copenhagen:20270224T123100
+SUMMARY:Løb: Løb – Restitutionsløb (uge 26)
+DESCRIPTION:31 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-24-wed_swim-027b130d-6ff1-5d50-895b-481bd7942f29@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270224T063000
+DTEND;TZID=Europe/Copenhagen:20270224T073200
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 26)
+DESCRIPTION:62 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-25-thu_run-92c18e5a-28f2-5faf-8042-ccb483c98900@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270225T173000
+DTEND;TZID=Europe/Copenhagen:20270225T183200
+SUMMARY:Løb: Løb – Race-pace segmenter (uge 26)
+DESCRIPTION:62 min i alt. Hovedsæt: 3x10 min @ target IM-maratontempo (lan
+ gsommere end 5:00/km)\, 2 min let jog mellem. Fokus på løbeøkonomi på 
+ trætte ben.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-27-sat_run-912243eb-119a-5ad1-a2b9-1c0f113821d3@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270227T090000
+DTEND;TZID=Europe/Copenhagen:20270227T105300
+SUMMARY:Løb: Løb – Langtur i race-tempo (uge 26)
+DESCRIPTION:113 min (1.9 t). Z2 med 20-30 min i target IM-maratontempo indl
+ agt. Simulerer race-forhold – øv sko/tøj/nutrition som på dagen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-28-sun_bike-8250e8d7-5f3c-5079-abee-3b08410c1669@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270228T090000
+DTEND;TZID=Europe/Copenhagen:20270228T125900
+SUMMARY:Cykel: Cykel – Lang tur i IM-tempo (uge 26)
+DESCRIPTION:239 min (4.0 t). Store dele i target IM-watt (~143W). Simulerer
+  race-pacing over lang tid – vigtigt at øve disciplin i at holde igen t
+ idligt. Direkte efter: 20 min løb af cyklen (brick) i Z2\, fokus på at f
+ inde løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-28-sun_brick-62147ec4-0b5e-5637-9c7e-7219770e61ca@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270228T125900
+DTEND;TZID=Europe/Copenhagen:20270228T131900
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 26)
+DESCRIPTION:20 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-01-mon_strength-b8e4103b-6489-58b8-ab9d-a108ebfc3c38@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270301T180000
+DTEND;TZID=Europe/Copenhagen:20270301T183800
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 27)
+DESCRIPTION:38 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-01-mon_swim-36299f8c-9033-5b63-ac68-87898fb0ad4b@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270301T063000
+DTEND;TZID=Europe/Copenhagen:20270301T071500
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 27)
+DESCRIPTION:45 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-02-tue_bike-3c8a20a3-4db8-56d6-9ab1-6391c65ceb27@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270302T173000
+DTEND;TZID=Europe/Copenhagen:20270302T192300
+SUMMARY:Cykel: Cykel – Race-specifik sweet spot (uge 27)
+DESCRIPTION:113 min i alt. Opvarmning 15 min. Hovedsæt: 2x20 min @ Z3-Z4 (
+ ca. Ironman-watt\, ~143-162W)\, 8 min let mellem. Simulerer race-belastnin
+ g over tid.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-03-wed_run-cef678f6-5082-545c-bf36-d3f4ae078aae@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270303T120000
+DTEND;TZID=Europe/Copenhagen:20270303T123400
+SUMMARY:Løb: Løb – Restitutionsløb (uge 27)
+DESCRIPTION:34 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-03-wed_swim-eb336580-d6ad-5ea4-a6c2-73ba7663e1ed@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270303T063000
+DTEND;TZID=Europe/Copenhagen:20270303T073800
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 27)
+DESCRIPTION:68 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-04-thu_run-aa4f087f-08d7-5fcc-ac44-50a47ad93d0e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270304T173000
+DTEND;TZID=Europe/Copenhagen:20270304T183800
+SUMMARY:Løb: Løb – Race-pace segmenter (uge 27)
+DESCRIPTION:68 min i alt. Hovedsæt: 3x10 min @ target IM-maratontempo (lan
+ gsommere end 5:00/km)\, 2 min let jog mellem. Fokus på løbeøkonomi på 
+ trætte ben.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-06-sat_run-29f683df-4b7d-5c02-8678-5412fd6883c8@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270306T090000
+DTEND;TZID=Europe/Copenhagen:20270306T110500
+SUMMARY:Løb: Løb – Langtur i race-tempo (uge 27)
+DESCRIPTION:125 min (2.1 t). Z2 med 20-30 min i target IM-maratontempo indl
+ agt. Simulerer race-forhold – øv sko/tøj/nutrition som på dagen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-07-sun_bike-5466befd-791f-50fb-93d5-f896183bd04d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270307T090000
+DTEND;TZID=Europe/Copenhagen:20270307T132500
+SUMMARY:Cykel: Cykel – Lang tur i IM-tempo (uge 27)
+DESCRIPTION:265 min (4.4 t). Store dele i target IM-watt (~143W). Simulerer
+  race-pacing over lang tid – vigtigt at øve disciplin i at holde igen t
+ idligt. Direkte efter: 20 min løb af cyklen (brick) i Z2\, fokus på at f
+ inde løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-07-sun_brick-1cab32d3-1b2a-5ea0-b262-0ae515a5aa6b@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270307T132500
+DTEND;TZID=Europe/Copenhagen:20270307T134500
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 27)
+DESCRIPTION:20 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-08-mon_strength-d324a357-9087-5c5d-a0b2-4078319d4666@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270308T180000
+DTEND;TZID=Europe/Copenhagen:20270308T182300
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 28)
+DESCRIPTION:23 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-08-mon_swim-dc19ba7a-914a-54a2-a397-9293bffe8f16@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270308T063000
+DTEND;TZID=Europe/Copenhagen:20270308T065800
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 28)
+DESCRIPTION:28 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-09-tue_bike-ab208871-b08c-5ecf-8755-3d294489fbf2@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270309T173000
+DTEND;TZID=Europe/Copenhagen:20270309T184000
+SUMMARY:Cykel: Cykel – Race-specifik sweet spot (uge 28)
+DESCRIPTION:70 min i alt. Opvarmning 15 min. Hovedsæt: 2x20 min @ Z3-Z4 (c
+ a. Ironman-watt\, ~143-162W)\, 8 min let mellem. Simulerer race-belastning
+  over tid.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-10-wed_run-88cfce6a-ca86-57ec-a3bd-4ef7e141816d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270310T120000
+DTEND;TZID=Europe/Copenhagen:20270310T122100
+SUMMARY:Løb: Løb – Restitutionsløb (uge 28)
+DESCRIPTION:21 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-10-wed_swim-0a975a7b-4e29-5521-8987-6f273088c8ca@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270310T063000
+DTEND;TZID=Europe/Copenhagen:20270310T071200
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 28)
+DESCRIPTION:42 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-11-thu_run-b723da18-cb9c-54e1-ad61-3c940d5448f1@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270311T173000
+DTEND;TZID=Europe/Copenhagen:20270311T181200
+SUMMARY:Løb: Løb – Race-pace segmenter (uge 28)
+DESCRIPTION:42 min i alt. Hovedsæt: 3x10 min @ target IM-maratontempo (lan
+ gsommere end 5:00/km)\, 2 min let jog mellem. Fokus på løbeøkonomi på 
+ trætte ben.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-13-sat_run-60ce9b92-37f0-59a7-aa5b-f1cabba28536@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270313T090000
+DTEND;TZID=Europe/Copenhagen:20270313T101700
+SUMMARY:Løb: Løb – Langtur i race-tempo (uge 28)
+DESCRIPTION:77 min (1.3 t). Z2 med 20-30 min i target IM-maratontempo indla
+ gt. Simulerer race-forhold – øv sko/tøj/nutrition som på dagen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-14-sun_bike-9d4faf91-e612-56e5-b4f8-24b1877313c0@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270314T090000
+DTEND;TZID=Europe/Copenhagen:20270314T114400
+SUMMARY:Cykel: Cykel – Lang tur i IM-tempo (uge 28)
+DESCRIPTION:164 min (2.7 t). Store dele i target IM-watt (~143W). Simulerer
+  race-pacing over lang tid – vigtigt at øve disciplin i at holde igen t
+ idligt. Direkte efter: 20 min løb af cyklen (brick) i Z2\, fokus på at f
+ inde løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-14-sun_brick-2ca6c6f7-6869-586d-a178-c98f9b658f22@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270314T114400
+DTEND;TZID=Europe/Copenhagen:20270314T120400
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 28)
+DESCRIPTION:20 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-15-mon_strength-1cf1d9f0-860d-534e-93a0-8e9b7a9eaab7@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270315T180000
+DTEND;TZID=Europe/Copenhagen:20270315T183300
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 29)
+DESCRIPTION:33 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-15-mon_swim-05452cc6-89e1-5c0d-854f-480026335551@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270315T063000
+DTEND;TZID=Europe/Copenhagen:20270315T071000
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 29)
+DESCRIPTION:40 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-16-tue_bike-16795538-5c2a-53b4-bb64-e87a3ee41e3c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270316T173000
+DTEND;TZID=Europe/Copenhagen:20270316T190900
+SUMMARY:Cykel: Cykel – Race-specifik sweet spot (uge 29)
+DESCRIPTION:99 min i alt. Opvarmning 15 min. Hovedsæt: 2x20 min @ Z3-Z4 (c
+ a. Ironman-watt\, ~143-162W)\, 8 min let mellem. Simulerer race-belastning
+  over tid.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-17-wed_run-822bff48-152c-5811-bec9-e2ebc98aadaa@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270317T120000
+DTEND;TZID=Europe/Copenhagen:20270317T123000
+SUMMARY:Løb: Løb – Restitutionsløb (uge 29)
+DESCRIPTION:30 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-17-wed_swim-5a2c89c3-e8d5-54a5-9e42-79def198a0a6@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270317T063000
+DTEND;TZID=Europe/Copenhagen:20270317T072900
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 29)
+DESCRIPTION:59 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-18-thu_run-1d71a000-3b45-510b-a810-be61e42b63a0@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270318T173000
+DTEND;TZID=Europe/Copenhagen:20270318T182900
+SUMMARY:Løb: Løb – Race-pace segmenter (uge 29)
+DESCRIPTION:59 min i alt. Hovedsæt: 3x10 min @ target IM-maratontempo (lan
+ gsommere end 5:00/km)\, 2 min let jog mellem. Fokus på løbeøkonomi på 
+ trætte ben.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-20-sat_run-92ef8ede-6488-5e65-b957-21cad1f447a1@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270320T090000
+DTEND;TZID=Europe/Copenhagen:20270320T104900
+SUMMARY:Løb: Løb – Langtur i race-tempo (uge 29)
+DESCRIPTION:109 min (1.8 t). Z2 med 20-30 min i target IM-maratontempo indl
+ agt. Simulerer race-forhold – øv sko/tøj/nutrition som på dagen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-21-sun_bike-446c92de-8a24-509e-b7f4-226c2f8ddb5f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270321T090000
+DTEND;TZID=Europe/Copenhagen:20270321T125100
+SUMMARY:Cykel: Cykel – Lang tur i IM-tempo (uge 29)
+DESCRIPTION:231 min (3.9 t). Store dele i target IM-watt (~143W). Simulerer
+  race-pacing over lang tid – vigtigt at øve disciplin i at holde igen t
+ idligt. Direkte efter: 20 min løb af cyklen (brick) i Z2\, fokus på at f
+ inde løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-21-sun_brick-8022ca58-6cab-51bb-9680-4293c9105d8b@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270321T125100
+DTEND;TZID=Europe/Copenhagen:20270321T131100
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 29)
+DESCRIPTION:20 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-22-mon_strength-07bd4e3a-0286-5734-ab96-e00e098982ca@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270322T180000
+DTEND;TZID=Europe/Copenhagen:20270322T183700
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 30)
+DESCRIPTION:37 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-22-mon_swim-67de5de9-00d4-5fbc-85b6-bf2f43cd2801@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270322T063000
+DTEND;TZID=Europe/Copenhagen:20270322T071400
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 30)
+DESCRIPTION:44 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-23-tue_bike-41371bdc-3aac-510f-b397-6e0e539ff6df@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270323T173000
+DTEND;TZID=Europe/Copenhagen:20270323T192100
+SUMMARY:Cykel: Cykel – Race-specifik sweet spot (uge 30)
+DESCRIPTION:111 min i alt. Opvarmning 15 min. Hovedsæt: 2x20 min @ Z3-Z4 (
+ ca. Ironman-watt\, ~143-162W)\, 8 min let mellem. Simulerer race-belastnin
+ g over tid.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-24-wed_run-62dfde42-f846-511c-af2c-3ce3e639185a@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270324T120000
+DTEND;TZID=Europe/Copenhagen:20270324T123300
+SUMMARY:Løb: Løb – Restitutionsløb (uge 30)
+DESCRIPTION:33 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-24-wed_swim-ea6526cd-bbb8-55c2-b324-e597415b4245@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270324T063000
+DTEND;TZID=Europe/Copenhagen:20270324T073600
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 30)
+DESCRIPTION:66 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-25-thu_run-d841cec9-c684-5068-b308-32a5da25cb34@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270325T173000
+DTEND;TZID=Europe/Copenhagen:20270325T183600
+SUMMARY:Løb: Løb – Race-pace segmenter (uge 30)
+DESCRIPTION:66 min i alt. Hovedsæt: 3x10 min @ target IM-maratontempo (lan
+ gsommere end 5:00/km)\, 2 min let jog mellem. Fokus på løbeøkonomi på 
+ trætte ben.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-27-sat_run-937bea49-6eb9-5243-af39-eb58c9e2e730@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270327T090000
+DTEND;TZID=Europe/Copenhagen:20270327T110200
+SUMMARY:Løb: Løb – Langtur i race-tempo (uge 30)
+DESCRIPTION:122 min (2.0 t). Z2 med 20-30 min i target IM-maratontempo indl
+ agt. Simulerer race-forhold – øv sko/tøj/nutrition som på dagen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-28-sun_bike-d0f9eb5d-9237-5505-9589-e5c42eefe5f9@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270328T090000
+DTEND;TZID=Europe/Copenhagen:20270328T131800
+SUMMARY:Cykel: Cykel – Lang tur i IM-tempo (uge 30)
+DESCRIPTION:258 min (4.3 t). Store dele i target IM-watt (~143W). Simulerer
+  race-pacing over lang tid – vigtigt at øve disciplin i at holde igen t
+ idligt. Direkte efter: 20 min løb af cyklen (brick) i Z2\, fokus på at f
+ inde løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-28-sun_brick-a0093622-2f94-5eae-9f64-9c1d351cd7f7@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270328T131800
+DTEND;TZID=Europe/Copenhagen:20270328T133800
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 30)
+DESCRIPTION:20 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-29-mon_strength-6c93c8ea-c56f-5310-bdda-e0d8924e90eb@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270329T180000
+DTEND;TZID=Europe/Copenhagen:20270329T184100
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 31)
+DESCRIPTION:41 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-29-mon_swim-f29e6863-4606-5e69-b434-04d02bec7892@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270329T063000
+DTEND;TZID=Europe/Copenhagen:20270329T071900
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 31)
+DESCRIPTION:49 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-30-tue_bike-54af4e08-a6e2-5a37-bd30-d9c65f83b738@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270330T173000
+DTEND;TZID=Europe/Copenhagen:20270330T193300
+SUMMARY:Cykel: Cykel – Race-specifik sweet spot (uge 31)
+DESCRIPTION:123 min i alt. Opvarmning 15 min. Hovedsæt: 2x20 min @ Z3-Z4 (
+ ca. Ironman-watt\, ~143-162W)\, 8 min let mellem. Simulerer race-belastnin
+ g over tid.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-31-wed_run-ccadfdd5-6775-55bc-b2fa-7ecea974d30c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270331T120000
+DTEND;TZID=Europe/Copenhagen:20270331T123700
+SUMMARY:Løb: Løb – Restitutionsløb (uge 31)
+DESCRIPTION:37 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-31-wed_swim-f5bb1b7e-efaf-5600-8093-1b8e8dbcc448@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270331T063000
+DTEND;TZID=Europe/Copenhagen:20270331T074400
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 31)
+DESCRIPTION:74 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-01-thu_run-ad310076-9d31-598f-903f-73e5f98c60bc@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270401T173000
+DTEND;TZID=Europe/Copenhagen:20270401T184400
+SUMMARY:Løb: Løb – Race-pace segmenter (uge 31)
+DESCRIPTION:74 min i alt. Hovedsæt: 3x10 min @ target IM-maratontempo (lan
+ gsommere end 5:00/km)\, 2 min let jog mellem. Fokus på løbeøkonomi på 
+ trætte ben.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-03-sat_run-aa25df17-9a54-5011-aa67-9d849da2ef86@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270403T090000
+DTEND;TZID=Europe/Copenhagen:20270403T111600
+SUMMARY:Løb: Løb – Langtur i race-tempo (uge 31)
+DESCRIPTION:136 min (2.3 t). Z2 med 20-30 min i target IM-maratontempo indl
+ agt. Simulerer race-forhold – øv sko/tøj/nutrition som på dagen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-04-sun_bike-c747da2a-58a0-56f4-80ad-b8ec5d805615@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270404T090000
+DTEND;TZID=Europe/Copenhagen:20270404T134800
+SUMMARY:Cykel: Cykel – Lang tur i IM-tempo (uge 31)
+DESCRIPTION:288 min (4.8 t). Store dele i target IM-watt (~143W). Simulerer
+  race-pacing over lang tid – vigtigt at øve disciplin i at holde igen t
+ idligt. Direkte efter: 20 min løb af cyklen (brick) i Z2\, fokus på at f
+ inde løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-04-sun_brick-4bfaba65-d9c0-5cff-b833-4d57f74049af@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270404T134800
+DTEND;TZID=Europe/Copenhagen:20270404T140800
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 31)
+DESCRIPTION:20 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-05-mon_strength-58b35997-b856-58ad-916c-672e5693334c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270405T180000
+DTEND;TZID=Europe/Copenhagen:20270405T182600
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 32)
+DESCRIPTION:26 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-05-mon_swim-cbe72db6-12df-5d46-b4be-1a6a55096364@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270405T063000
+DTEND;TZID=Europe/Copenhagen:20270405T070100
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 32)
+DESCRIPTION:31 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-06-tue_bike-69078378-6f2f-5f09-9438-ac5b4da39aa2@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270406T173000
+DTEND;TZID=Europe/Copenhagen:20270406T184700
+SUMMARY:Cykel: Cykel – Race-specifik sweet spot (uge 32)
+DESCRIPTION:77 min i alt. Opvarmning 15 min. Hovedsæt: 2x20 min @ Z3-Z4 (c
+ a. Ironman-watt\, ~143-162W)\, 8 min let mellem. Simulerer race-belastning
+  over tid.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-07-wed_run-30ef636f-29aa-5b05-b37f-5951f642e859@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270407T120000
+DTEND;TZID=Europe/Copenhagen:20270407T122300
+SUMMARY:Løb: Løb – Restitutionsløb (uge 32)
+DESCRIPTION:23 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-07-wed_swim-953f9707-92c6-5888-b4ed-f3cf1a9ca8de@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270407T063000
+DTEND;TZID=Europe/Copenhagen:20270407T071600
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 32)
+DESCRIPTION:46 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-08-thu_run-b1c1822b-4511-59d2-a2b1-f6ea1bb013f0@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270408T173000
+DTEND;TZID=Europe/Copenhagen:20270408T181600
+SUMMARY:Løb: Løb – Race-pace segmenter (uge 32)
+DESCRIPTION:46 min i alt. Hovedsæt: 3x10 min @ target IM-maratontempo (lan
+ gsommere end 5:00/km)\, 2 min let jog mellem. Fokus på løbeøkonomi på 
+ trætte ben.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-10-sat_run-a863c312-b179-5c88-b809-298f8a0c0d4f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270410T090000
+DTEND;TZID=Europe/Copenhagen:20270410T102400
+SUMMARY:Løb: Løb – Langtur i race-tempo (uge 32)
+DESCRIPTION:84 min (1.4 t). Z2 med 20-30 min i target IM-maratontempo indla
+ gt. Simulerer race-forhold – øv sko/tøj/nutrition som på dagen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-11-sun_bike-036d0108-d909-564d-9525-3a6cf0515849@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270411T090000
+DTEND;TZID=Europe/Copenhagen:20270411T115800
+SUMMARY:Cykel: Cykel – Lang tur i IM-tempo (uge 32)
+DESCRIPTION:178 min (3.0 t). Store dele i target IM-watt (~143W). Simulerer
+  race-pacing over lang tid – vigtigt at øve disciplin i at holde igen t
+ idligt. Direkte efter: 20 min løb af cyklen (brick) i Z2\, fokus på at f
+ inde løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-11-sun_brick-579f8976-c4ef-5474-9312-f592177736b6@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270411T115800
+DTEND;TZID=Europe/Copenhagen:20270411T121800
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 32)
+DESCRIPTION:20 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-12-mon_strength-7a43f816-b4f5-5861-9013-d587552e8fd1@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270412T180000
+DTEND;TZID=Europe/Copenhagen:20270412T183700
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 33)
+DESCRIPTION:37 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-12-mon_swim-0c83ac90-d82c-5348-bccf-dd1961b93300@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270412T063000
+DTEND;TZID=Europe/Copenhagen:20270412T070600
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 33)
+DESCRIPTION:36 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-13-tue_bike_test-2bfb7f37-9a12-5621-8f69-a3db44123bba@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270413T173000
+DTEND;TZID=Europe/Copenhagen:20270413T183000
+SUMMARY:Cykel: Cykel – FTP-test (uge 33)
+DESCRIPTION:20 min opvarmning inkl. 3x3 min stigende. Herefter 20 min all-o
+ ut tidsforsøg (eller ramp-test hvis du har adgang). FTP ≈ 95% af 20-min
+  gennemsnitseffekt. Brug resultatet til at opdatere effektzonerne. 15 min 
+ nedjog.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-14-wed_swim_test-50dfd1d1-35b5-5b75-acbf-5465c73e27c5@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270414T063000
+DTEND;TZID=Europe/Copenhagen:20270414T071500
+SUMMARY:Svøm: Svøm – CSS-test (kritisk svømmehastighed) (uge 33)
+DESCRIPTION:Opvarmning 300-400m. Svøm 400m all-out (noter tid)\, 5-8 min p
+ ause\, svøm 200m all-out (noter tid). CSS-pace = (400m-tid − 200m-tid) 
+ / (400 − 200) × 100. Brug resultatet til at sætte svømmezoner for næ
+ ste blok.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-15-thu_run-7beb8d8f-919e-5acb-b922-324254da01c8@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270415T173000
+DTEND;TZID=Europe/Copenhagen:20270415T183700
+SUMMARY:Løb: Løb – Skarp kalibrering (uge 33)
+DESCRIPTION:67 min i alt. Hovedsæt: 6x3 min @ Z4\, 2 min let jog. Kort og 
+ skarpt – ikke for langt så tæt på peak-belastning andre steder.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-17-sat_run-d25069c7-6f6c-52f6-b273-90424d269c3d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270417T090000
+DTEND;TZID=Europe/Copenhagen:20270417T110300
+SUMMARY:Løb: Løb – Langtur i race-tempo (uge 33)
+DESCRIPTION:123 min (2.0 t). Z2 med 20-30 min i target IM-maratontempo indl
+ agt. Simulerer race-forhold – øv sko/tøj/nutrition som på dagen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-18-sun_bike-e6d2bcfc-614e-54b8-863d-a7f224021842@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270418T090000
+DTEND;TZID=Europe/Copenhagen:20270418T135600
+SUMMARY:Cykel: Cykel – Peak lang tur (uge 33)
+DESCRIPTION:296 min (4.9 t). Den længste/mest specifikke cykeltur i planen
+ . IM-tempo (~143W) i hovedparten\, fuld generalprøve på nutrition og uds
+ tyr. Direkte efter: 25 min løb af cyklen (brick) i Z2\, fokus på at find
+ e løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-18-sun_brick-b8c42c3e-15ed-5947-8886-5fabf6f51236@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270418T135600
+DTEND;TZID=Europe/Copenhagen:20270418T142100
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 33)
+DESCRIPTION:25 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-19-mon_strength-47bfa55a-c2d0-51f6-8eb6-779642bbc069@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270419T180000
+DTEND;TZID=Europe/Copenhagen:20270419T184400
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 34)
+DESCRIPTION:44 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-19-mon_swim-66c5e753-f0ea-583d-9df9-09f6ab911d63@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270419T063000
+DTEND;TZID=Europe/Copenhagen:20270419T071200
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 34)
+DESCRIPTION:42 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-20-tue_bike-ae6c13cc-fb25-56c5-9a4e-7efe43d3ae96@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270420T173000
+DTEND;TZID=Europe/Copenhagen:20270420T192500
+SUMMARY:Cykel: Cykel – Race-pace kalibrering (uge 34)
+DESCRIPTION:115 min i alt. Opvarmning 15 min. Hovedsæt: 3x15 min @ target 
+ IM-watt (~137-148W)\, 6 min let mellem. Øv nutrition/væske som på raced
+ agen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-21-wed_run-1d240baa-382f-5c2e-84a5-3761ceb6af67@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270421T120000
+DTEND;TZID=Europe/Copenhagen:20270421T123900
+SUMMARY:Løb: Løb – Restitutionsløb (uge 34)
+DESCRIPTION:39 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-21-wed_swim-f06e8846-59cd-52b0-b5c5-25f390f275d6@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270421T063000
+DTEND;TZID=Europe/Copenhagen:20270421T073300
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 34)
+DESCRIPTION:63 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-22-thu_run-a3fc01ac-edd4-5744-ba0f-2f005270ce01@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270422T173000
+DTEND;TZID=Europe/Copenhagen:20270422T184800
+SUMMARY:Løb: Løb – Skarp kalibrering (uge 34)
+DESCRIPTION:78 min i alt. Hovedsæt: 6x3 min @ Z4\, 2 min let jog. Kort og 
+ skarpt – ikke for langt så tæt på peak-belastning andre steder.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-24-sat_run-784ae719-6be0-5e25-b1ee-8c816c91129f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270424T090000
+DTEND;TZID=Europe/Copenhagen:20270424T112400
+SUMMARY:Løb: Løb – Langtur i race-tempo (uge 34)
+DESCRIPTION:144 min (2.4 t). Z2 med 20-30 min i target IM-maratontempo indl
+ agt. Simulerer race-forhold – øv sko/tøj/nutrition som på dagen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-25-sun_bike-3ee27fef-ef8d-576e-9b14-9412aec6a181@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270425T090000
+DTEND;TZID=Europe/Copenhagen:20270425T144600
+SUMMARY:Cykel: Cykel – Peak lang tur (uge 34)
+DESCRIPTION:346 min (5.8 t). Den længste/mest specifikke cykeltur i planen
+ . IM-tempo (~143W) i hovedparten\, fuld generalprøve på nutrition og uds
+ tyr. Direkte efter: 25 min løb af cyklen (brick) i Z2\, fokus på at find
+ e løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-25-sun_brick-7a52b3ce-e779-57ec-9f00-731516d72efd@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270425T144600
+DTEND;TZID=Europe/Copenhagen:20270425T151100
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 34)
+DESCRIPTION:25 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-26-mon_strength-a9f66241-5f91-5ba0-a14d-3cb45258baf4@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270426T180000
+DTEND;TZID=Europe/Copenhagen:20270426T182900
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 35)
+DESCRIPTION:29 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-26-mon_swim-2bfd3a08-5e52-58ef-aec9-b91efc51799e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270426T063000
+DTEND;TZID=Europe/Copenhagen:20270426T065800
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 35)
+DESCRIPTION:28 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-27-tue_bike-41fb1609-dfc7-5607-9f25-89e3a4d99253@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270427T173000
+DTEND;TZID=Europe/Copenhagen:20270427T184700
+SUMMARY:Cykel: Cykel – Race-pace kalibrering (uge 35)
+DESCRIPTION:77 min i alt. Opvarmning 15 min. Hovedsæt: 3x15 min @ target I
+ M-watt (~137-148W)\, 6 min let mellem. Øv nutrition/væske som på raceda
+ gen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-28-wed_run-1fe4ed20-e6d7-5d4f-9b17-89d70e8d21ad@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270428T120000
+DTEND;TZID=Europe/Copenhagen:20270428T122600
+SUMMARY:Løb: Løb – Restitutionsløb (uge 35)
+DESCRIPTION:26 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-28-wed_swim-c8e98d72-62d7-553a-8bfa-50bac52b36d1@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270428T063000
+DTEND;TZID=Europe/Copenhagen:20270428T071200
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 35)
+DESCRIPTION:42 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-29-thu_run-22290adc-826d-52f3-bfec-3e77a4295280@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270429T173000
+DTEND;TZID=Europe/Copenhagen:20270429T182200
+SUMMARY:Løb: Løb – Skarp kalibrering (uge 35)
+DESCRIPTION:52 min i alt. Hovedsæt: 6x3 min @ Z4\, 2 min let jog. Kort og 
+ skarpt – ikke for langt så tæt på peak-belastning andre steder.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-01-sat_run-d67af17e-b7c9-539e-8000-dcc0daa00756@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270501T090000
+DTEND;TZID=Europe/Copenhagen:20270501T103600
+SUMMARY:Løb: Løb – Langtur i race-tempo (uge 35)
+DESCRIPTION:96 min (1.6 t). Z2 med 20-30 min i target IM-maratontempo indla
+ gt. Simulerer race-forhold – øv sko/tøj/nutrition som på dagen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-02-sun_bike-1764b8f5-9d64-531c-bd46-6667ff3fbb09@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270502T090000
+DTEND;TZID=Europe/Copenhagen:20270502T125100
+SUMMARY:Cykel: Cykel – Peak lang tur (uge 35)
+DESCRIPTION:231 min (3.9 t). Den længste/mest specifikke cykeltur i planen
+ . IM-tempo (~143W) i hovedparten\, fuld generalprøve på nutrition og uds
+ tyr. Direkte efter: 25 min løb af cyklen (brick) i Z2\, fokus på at find
+ e løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-02-sun_brick-a48dcb53-b95e-5fd6-86e9-c660744d9774@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270502T125100
+DTEND;TZID=Europe/Copenhagen:20270502T131600
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 35)
+DESCRIPTION:25 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-03-mon_strength-efdc8bfb-cdbb-5e54-ad5b-ea7fb8445acb@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270503T180000
+DTEND;TZID=Europe/Copenhagen:20270503T183500
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 36)
+DESCRIPTION:35 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-03-mon_swim-23f1d73a-c6f1-51ce-bfd2-a304d5992b4c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270503T063000
+DTEND;TZID=Europe/Copenhagen:20270503T070400
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 36)
+DESCRIPTION:34 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-04-tue_bike-9bf67d57-3191-5b33-b71a-0990f34b503a@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270504T173000
+DTEND;TZID=Europe/Copenhagen:20270504T190300
+SUMMARY:Cykel: Cykel – Race-pace kalibrering (uge 36)
+DESCRIPTION:93 min i alt. Opvarmning 15 min. Hovedsæt: 3x15 min @ target I
+ M-watt (~137-148W)\, 6 min let mellem. Øv nutrition/væske som på raceda
+ gen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-05-wed_run-f9187fc3-c9ac-5e1e-96af-cb3b5654b2a7@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270505T120000
+DTEND;TZID=Europe/Copenhagen:20270505T123200
+SUMMARY:Løb: Løb – Restitutionsløb (uge 36)
+DESCRIPTION:32 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-05-wed_swim-03fa5962-98db-5c9f-b677-6d92cd8c2c1c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270505T063000
+DTEND;TZID=Europe/Copenhagen:20270505T072100
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 36)
+DESCRIPTION:51 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-06-thu_run-d7f0e30a-c438-595e-b3cd-653bf4602d13@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270506T173000
+DTEND;TZID=Europe/Copenhagen:20270506T183300
+SUMMARY:Løb: Løb – Skarp kalibrering (uge 36)
+DESCRIPTION:63 min i alt. Hovedsæt: 6x3 min @ Z4\, 2 min let jog. Kort og 
+ skarpt – ikke for langt så tæt på peak-belastning andre steder.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-08-sat_run-380cf6af-0f76-5516-8768-f3cf7ba57844@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270508T090000
+DTEND;TZID=Europe/Copenhagen:20270508T105600
+SUMMARY:Løb: Løb – Langtur i race-tempo (uge 36)
+DESCRIPTION:116 min (1.9 t). Z2 med 20-30 min i target IM-maratontempo indl
+ agt. Simulerer race-forhold – øv sko/tøj/nutrition som på dagen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-09-sun_bike-298024ef-6376-5bfb-8146-05052ae732e3@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270509T090000
+DTEND;TZID=Europe/Copenhagen:20270509T133900
+SUMMARY:Cykel: Cykel – Peak lang tur (uge 36)
+DESCRIPTION:279 min (4.7 t). Den længste/mest specifikke cykeltur i planen
+ . IM-tempo (~143W) i hovedparten\, fuld generalprøve på nutrition og uds
+ tyr. Direkte efter: 25 min løb af cyklen (brick) i Z2\, fokus på at find
+ e løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-09-sun_brick-6e4919fa-4432-58f2-8396-be4ea5492e88@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270509T133900
+DTEND;TZID=Europe/Copenhagen:20270509T140400
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 36)
+DESCRIPTION:25 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-10-mon_strength-999d75ff-344c-5e8b-83fd-2de20cc982a6@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270510T180000
+DTEND;TZID=Europe/Copenhagen:20270510T182700
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 37)
+DESCRIPTION:27 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-10-mon_swim-171b80d7-3464-56cc-a5d1-ee6cf104ad07@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270510T063000
+DTEND;TZID=Europe/Copenhagen:20270510T070200
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 37)
+DESCRIPTION:32 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-11-tue_bike-718c7efb-1784-5112-98a3-ed7708cd7e1d@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270511T173000
+DTEND;TZID=Europe/Copenhagen:20270511T191900
+SUMMARY:Cykel: Cykel – Åbner med korte spidser (uge 37)
+DESCRIPTION:109 min i alt. Rolig Z1-Z2 kørsel med 4-6x1 min @ Z4 (frisk f
+ ølelse i benene)\, lang pause mellem. Hold benene skarpe uden at trætte 
+ dem.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-12-wed_run-dd47fa8b-33be-57f3-a9eb-0a1cb584be71@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270512T120000
+DTEND;TZID=Europe/Copenhagen:20270512T122800
+SUMMARY:Løb: Løb – Restitutionsløb (uge 37)
+DESCRIPTION:28 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-12-wed_swim-9a94221a-2105-50ea-87e1-68f3f2948baa@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270512T063000
+DTEND;TZID=Europe/Copenhagen:20270512T071900
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 37)
+DESCRIPTION:49 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-13-thu_run-ab91eb72-4494-521f-8cef-ff9c5a5528ba@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270513T173000
+DTEND;TZID=Europe/Copenhagen:20270513T182700
+SUMMARY:Løb: Løb – Åbner (uge 37)
+DESCRIPTION:57 min let Z1-Z2 med 4-6x20s strides. Hold benene friske.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-15-sat_run-534cf5f1-18cc-52f9-9706-785627151c03@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270515T090000
+DTEND;TZID=Europe/Copenhagen:20270515T104400
+SUMMARY:Løb: Løb – Nedtrappet langtur (uge 37)
+DESCRIPTION:104 min (1.7 t) let Z1-Z2\, kortere end normalt – kroppen ska
+ l friskes op\, ikke trættes.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-16-sun_bike-2c5046ea-89ee-50fc-9c70-4d3bc4861dfb@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270516T090000
+DTEND;TZID=Europe/Copenhagen:20270516T111400
+SUMMARY:Cykel: Cykel – Nedtrapning\, kort og frisk (uge 37)
+DESCRIPTION:134 min (2.2 t) rolig Z1-Z2 med et par korte opkast til IM-watt
+  for at holde benene skarpe. Direkte efter: 10 min løb af cyklen (brick) 
+ i Z2\, fokus på at finde løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-16-sun_brick-169821a4-2b4e-5711-8c3b-0612e35bf789@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270516T111400
+DTEND;TZID=Europe/Copenhagen:20270516T112400
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 37)
+DESCRIPTION:10 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-17-mon_strength-7c0f8dc7-7cea-5139-b956-d81892b11ccb@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270517T180000
+DTEND;TZID=Europe/Copenhagen:20270517T181900
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 38)
+DESCRIPTION:19 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-17-mon_swim-a42e01c1-c014-52f2-b097-98891b165ada@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270517T063000
+DTEND;TZID=Europe/Copenhagen:20270517T065200
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 38)
+DESCRIPTION:22 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-18-tue_bike-1da9c2e5-75be-54cc-a718-a9fdea5a4613@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270518T173000
+DTEND;TZID=Europe/Copenhagen:20270518T184500
+SUMMARY:Cykel: Cykel – Åbner med korte spidser (uge 38)
+DESCRIPTION:75 min i alt. Rolig Z1-Z2 kørsel med 4-6x1 min @ Z4 (frisk fø
+ lelse i benene)\, lang pause mellem. Hold benene skarpe uden at trætte de
+ m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-19-wed_run-34713174-5fa2-56bf-8ace-d697e6cc30ca@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270519T120000
+DTEND;TZID=Europe/Copenhagen:20270519T122000
+SUMMARY:Løb: Løb – Restitutionsløb (uge 38)
+DESCRIPTION:20 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-19-wed_swim-86a4c7dc-e38f-5de6-8401-e633cacf58fd@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270519T063000
+DTEND;TZID=Europe/Copenhagen:20270519T070300
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 38)
+DESCRIPTION:33 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-20-thu_run-053dbf95-60f2-56f7-9b98-eed952c92665@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270520T173000
+DTEND;TZID=Europe/Copenhagen:20270520T180900
+SUMMARY:Løb: Løb – Åbner (uge 38)
+DESCRIPTION:39 min let Z1-Z2 med 4-6x20s strides. Hold benene friske.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-22-sat_run-067c8c6a-1b59-549b-9da9-32a104d6dfdb@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270522T090000
+DTEND;TZID=Europe/Copenhagen:20270522T101200
+SUMMARY:Løb: Løb – Nedtrappet langtur (uge 38)
+DESCRIPTION:72 min (1.2 t) let Z1-Z2\, kortere end normalt – kroppen skal
+  friskes op\, ikke trættes.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-23-sun_bike-bf0997d9-6d73-5af4-8b63-3c977239d44f@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270523T090000
+DTEND;TZID=Europe/Copenhagen:20270523T103200
+SUMMARY:Cykel: Cykel – Nedtrapning\, kort og frisk (uge 38)
+DESCRIPTION:92 min (1.5 t) rolig Z1-Z2 med et par korte opkast til IM-watt 
+ for at holde benene skarpe. Direkte efter: 10 min løb af cyklen (brick) i
+  Z2\, fokus på at finde løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-23-sun_brick-3f8f0815-a82d-5069-8868-c5d471078e05@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270523T103200
+DTEND;TZID=Europe/Copenhagen:20270523T104200
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 38)
+DESCRIPTION:10 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-24-mon_strength-1d5e8500-c8c0-5b3e-9b47-dd41dbad60a7@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270524T180000
+DTEND;TZID=Europe/Copenhagen:20270524T181500
+SUMMARY:Styrke: Styrketræning – Skadesforebyggelse (uge 39)
+DESCRIPTION:15 min. Vedligeholdelse – let belastning\, mobilitet og aktiv
+ ering. Ikke tung styrke tæt på race-specifik belastning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-24-mon_swim-fef4e0a7-bc20-5d31-afe1-3f16ec5d5d8a@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270524T063000
+DTEND;TZID=Europe/Copenhagen:20270524T065000
+SUMMARY:Svøm: Svøm – Teknik & sculling (uge 39)
+DESCRIPTION:20 min i alt. Opvarmning 300m. Sculling-serie (front/mid/hip sc
+ ull 4x50m)\, 6x50m med paddles/bøjer hvis til rådighed\, 4x100m build. N
+ edjog 200m. Teknik forbliver prioritet selv når farten stiger.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-25-tue_bike-30a1eb19-05c0-5096-80b3-6153c5e8ce0c@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270525T173000
+DTEND;TZID=Europe/Copenhagen:20270525T182000
+SUMMARY:Cykel: Cykel – Åbner med korte spidser (uge 39)
+DESCRIPTION:50 min i alt. Rolig Z1-Z2 kørsel med 4-6x1 min @ Z4 (frisk fø
+ lelse i benene)\, lang pause mellem. Hold benene skarpe uden at trætte de
+ m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-26-wed_run-1ec39c00-abb8-5275-9b49-e06572c5050a@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270526T120000
+DTEND;TZID=Europe/Copenhagen:20270526T122000
+SUMMARY:Løb: Løb – Restitutionsløb (uge 39)
+DESCRIPTION:20 min i Z1\, meget roligt tempo. Ren aktiv restitution mellem 
+ hårdere pas.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-26-wed_swim-068b5c46-a16d-567c-81c1-5ee6c5cfb2a0@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270526T063000
+DTEND;TZID=Europe/Copenhagen:20270526T065200
+SUMMARY:Svøm: Svøm – CSS-intervaller (udholdenhed) (uge 39)
+DESCRIPTION:22 min i alt. Opvarmning 300m. Hovedsæt: intervaller omkring C
+ SS-tempo (din kritiske svømmehastighed fra testen)\, fx 8-12x100m @ CSS-t
+ empo +3-5s\, 15-20s pause. Byg reps/distance uge for uge inden for blokken
+ . Nedjog 200m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-27-thu_run-6134a7f1-0e0d-5c1c-9e33-41855e3b7e77@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270527T173000
+DTEND;TZID=Europe/Copenhagen:20270527T180000
+SUMMARY:Løb: Løb – Åbner (uge 39)
+DESCRIPTION:30 min let Z1-Z2 med 4-6x20s strides. Hold benene friske.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-29-sat_run-7b1f9ea0-b082-5b56-996d-d20305cef1d8@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270529T090000
+DTEND;TZID=Europe/Copenhagen:20270529T094700
+SUMMARY:Løb: Løb – Nedtrappet langtur (uge 39)
+DESCRIPTION:47 min (0.8 t) let Z1-Z2\, kortere end normalt – kroppen skal
+  friskes op\, ikke trættes.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-30-sun_bike-93b5c02a-febf-57f0-ab65-d56d07186cfa@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270530T090000
+DTEND;TZID=Europe/Copenhagen:20270530T100100
+SUMMARY:Cykel: Cykel – Nedtrapning\, kort og frisk (uge 39)
+DESCRIPTION:61 min (1.0 t) rolig Z1-Z2 med et par korte opkast til IM-watt 
+ for at holde benene skarpe. Direkte efter: 10 min løb af cyklen (brick) i
+  Z2\, fokus på at finde løbeben hurtigt (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-30-sun_brick-785a62ea-a6e8-5296-8373-43d3bfaf588b@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270530T100100
+DTEND;TZID=Europe/Copenhagen:20270530T101100
+SUMMARY:Løb: Løb – Brick (af cyklen) (uge 39)
+DESCRIPTION:10 min løb direkte efter den lange cykeltur\, Z2\, fokus på a
+ t finde løbeben (T2-træning).
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-31-mon_swim-5f3ebc2a-98a2-51f8-8fd3-915fe5931c8e@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270531T063000
+DTEND;TZID=Europe/Copenhagen:20270531T065000
+SUMMARY:Svøm: Svøm – Åbner (uge 40)
+DESCRIPTION:20 min let svøm med et par korte spidser (4x25m hurtigt). Hold
+  vandfornemmelsen.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-01-tue_bike-2d6ae8e6-9331-56b9-8f54-969ba57fa31b@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270601T173000
+DTEND;TZID=Europe/Copenhagen:20270601T180000
+SUMMARY:Cykel: Cykel – Åbner med korte spidser (uge 40)
+DESCRIPTION:30 min i alt. Rolig Z1-Z2 kørsel med 4-6x1 min @ Z4 (frisk fø
+ lelse i benene)\, lang pause mellem. Hold benene skarpe uden at trætte de
+ m.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-03-thu_run-a3fe8e11-637a-52bf-8052-fb494018b83a@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270603T173000
+DTEND;TZID=Europe/Copenhagen:20270603T180000
+SUMMARY:Løb: Løb – Åbner (uge 40)
+DESCRIPTION:30 min let Z1-Z2 med 4-6x20s strides. Hold benene friske.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-04-fri_travel-8a9f5230-95c8-5e1b-ab05-2831c9e4cfde@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270604T090000
+DTEND;TZID=Europe/Copenhagen:20270604T093000
+SUMMARY:Hvile: Hviledag – rejse/indtjekning (uge 40)
+DESCRIPTION:Rejse til race-lokation\, tjek ind\, briefing. Ingen eller mini
+ mal træning.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-05-sat_shakeout-098da87c-0731-584c-a5f7-0c1a6ff41918@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270605T090000
+DTEND;TZID=Europe/Copenhagen:20270605T091000
+SUMMARY:Løb: Løb – Meget kort åbner (uge 40)
+DESCRIPTION:10 min meget let jog med 3x20s strides. Tjek udstyr\, pak trans
+ itiontasker.
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-06-race_day-b068ac7b-7958-5579-a780-600386858217@ironman-filip
+DTSTAMP:20260825T000000Z
+DTSTART;TZID=Europe/Copenhagen:20270606T070000
+DTEND;TZID=Europe/Copenhagen:20270606T170000
+SUMMARY:Ironman: RACEDAG – Ironman
+DESCRIPTION:Svøm 3\,8 km\, cykel 180 km\, løb 42\,2 km. Mål: sub 10 time
+ r. God fornøjelse – nyd det\, du har trænet i 40 uger til dette!
+END:VEVENT
+END:VCALENDAR

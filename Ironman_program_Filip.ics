@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Ironman-plan Filip//Claude//DA
+PRODID:-//Ironman-plan Filip//Claude auto-sync//DA
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VTIMEZONE
